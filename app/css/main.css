@@ -905,6 +905,44 @@ body .time p {
   padding-top: 52px;
   height: 580px; }
 
+.partners-slider {
+  max-width: 1060px;
+  margin: 40px auto; }
+
+.partners-slider .lSAction > a {
+  width: 18px;
+  height: 30px;
+  background-position: center;
+  background-repeat: no-repeat; }
+
+.partners-slider .lSAction > .lSPrev {
+  left: 0;
+  background-image: url("../img/arrow-slider1.png"); }
+
+.partners-slider .lSAction > .lSNext {
+  right: 0;
+  background-image: url("../img/arrow-slider2.png"); }
+
+#partners {
+  height: 315px !important; }
+  #partners li {
+    text-align: center;
+    border-right: 1px solid #000;
+    width: 215px;
+    height: 314px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: 0 !important; }
+    #partners li:last-child {
+      border-right: none; }
+
+.in-part {
+  width: 100%;
+  border-bottom: 1px solid #000; }
+
+.in-second-part {
+  padding-top: 20px; }
+
 .bottom-forma {
   background-color: #f1f4f9;
   padding-top: 99px;
@@ -1141,6 +1179,9 @@ body .foot-email {
   background-image: url("../img/up.png");
   background-repeat: no-repeat;
   background-position: center; }
+
+.footer-map img {
+  width: 100%; }
 
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */

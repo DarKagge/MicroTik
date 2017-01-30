@@ -137,3 +137,15 @@ $(function() {
 		}
 	});
 	$('#total').text(autoplaySlider.getTotalSlideCount());
+
+
+    var partners = $('#partners').lightSlider({
+        item:5,
+        loop:true,
+        pager:false,
+        pauseOnHover: true,
+        onBeforeSlide: function (el) {
+            $('#current').text(el.getCurrentSlideCount());
+        }
+    });
+    $('#total').text(autoplaySlider.getTotalSlideCount());
