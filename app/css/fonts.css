@@ -3,3 +3,21 @@
   font-style: normal;
   font-weight: normal;
   src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"), url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"), url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoLight";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoLight/robotolight.woff2") format("woff2"), url("../fonts/RobotoLight/robotolight.woff") format("woff"), url("../fonts/RobotoLight/robotolight.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoBold";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoBold/robotobold.woff2") format("woff2"), url("../fonts/RobotoBold/robotobold.woff") format("woff"), url("../fonts/RobotoBold/robotobold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "RobotoLightitalic";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/RobotoLightitalic/robotolightitalic.woff2") format("woff2"), url("../fonts/RobotoLightitalic/robotolightitalic.woff") format("woff"), url("../fonts/RobotoLightitalic/robotolightitalic.ttf") format("truetype"); }

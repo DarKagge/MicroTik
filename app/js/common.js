@@ -113,3 +113,27 @@ $(function() {
 		return false;
 	})
 });
+
+
+        var autoplaySlider = $('#webinar').lightSlider({
+            item:1,
+            auto:true,
+            loop:true,
+            pauseOnHover: true,
+            onBeforeSlide: function (el) {
+                $('#current').text(el.getCurrentSlideCount());
+            }
+        });
+        $('#total').text(autoplaySlider.getTotalSlideCount());
+
+
+
+	var Slider = $('#comment').lightSlider({
+		item:1,
+		loop:true,
+		pauseOnHover: true,
+		onBeforeSlide: function (el) {
+			$('#current').text(el.getCurrentSlideCount());
+		}
+	});
+	$('#total').text(autoplaySlider.getTotalSlideCount());

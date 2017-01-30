@@ -1,21 +1,218 @@
+@import url(../libs/animate.css/animate.min.css);
+@import url(../libs/lightslider/dist/css/lightslider.min.css);
 body {
-  font-size: 16px;
-  min-width: 275px;
+  font-size: 16.67px;
+  min-width: 320px;
   position: relative;
   line-height: 1.6;
-  font-family: "RobotoRegular", sans-serif;
+  font-family: RobotoLight;
   overflow-x: hidden;
-  background-color: #fff; }
+  background-color: #fff;
+  color: #757575; }
 
-body a {
+a, button, input, textarea {
   text-decoration: none;
+  outline: 0;
+  border: 0;
   -webkit-transition: color 0.4s ease, background-color 0.4s ease, border-color 0.4s ease;
   transition: color 0.4s ease, background-color 0.4s ease, border-color 0.4s ease; }
+  a:focus, button:focus, input:focus, textarea:focus {
+    outline: 0;
+    border: 0; }
+
+a {
+  color: #757575; }
+
+b {
+  font-family: RobotoBold; }
+
+button:hover {
+  cursor: pointer; }
+
+.inner {
+  max-width: 1200px;
+  position: relative;
+  margin: 0 auto; }
 
 .hidden {
   display: none; }
 
-.wrapper {
-  width: 960px;
-  margin: 0 auto;
-  overflow: hidden; }
+header {
+  height: 70px;
+  background-color: #333333; }
+
+.logo {
+  padding: 7px 0 0 53px; }
+
+.phones {
+  font-size: 12.5px;
+  padding-top: 9px;
+  color: #fff; }
+  .phones b {
+    font-size: 16.67px;
+    font-family: RobotoBold;
+    display: block; }
+
+.phones-text {
+  float: left;
+  padding: 5px 0 0 8px; }
+  .phones-text p {
+    line-height: 22px; }
+
+.phones-number {
+  float: left;
+  padding-left: 17px; }
+  .phones-number b {
+    line-height: 25px;
+    letter-spacing: 0.3px; }
+
+.phones_buttons {
+  float: left;
+  margin-left: 43px;
+  margin-top: 6px; }
+  .phones_buttons a {
+    font-size: 14.58px;
+    text-transform: uppercase;
+    padding: 10px 16px 10px 44px;
+    display: block;
+    letter-spacing: 0.3px;
+    position: relative;
+    border-bottom: 3px solid #993300; }
+    .phones_buttons a:hover {
+      text-decoration: none; }
+    .phones_buttons a:after {
+      position: absolute;
+      left: 11px;
+      right: 0;
+      content: '';
+      background-image: url("../img/phones-icon.png");
+      background-repeat: no-repeat;
+      width: 19px;
+      height: 19px; }
+
+.buttons {
+  background-color: #f26c4f;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  text-align: center;
+  display: inline-block;
+  color: #fff; }
+  .buttons button {
+    background-color: #0b98cd; }
+  .buttons a {
+    color: #fff;
+    display: block; }
+    .buttons a:hover {
+      text-decoration: none;
+      background-color: #0b98cd;
+      -webkit-border-radius: 5px;
+      border-radius: 5px; }
+
+.top-menu {
+  border-top: 3px solid #c3c1c2;
+  border-bottom: 1px solid #cccccc; }
+
+.menu ul {
+  margin-top: -3px; }
+
+.menu li {
+  float: left; }
+
+.menu a {
+  font-size: 12.5px;
+  text-transform: uppercase;
+  padding: 31px 10px 32px 10px;
+  margin-right: 19px;
+  display: block; }
+  .menu a:hover {
+    color: #000;
+    text-decoration: none; }
+
+.active_menu {
+  border-top: 3px solid #0b98cd;
+  color: #0099cc;
+  padding-top: 28px !important; }
+
+.button-search {
+  border-left: 1px solid #bababa;
+  height: 40px;
+  margin-top: 21px;
+  margin-right: 21px;
+  position: relative; }
+  .button-search a {
+    display: block;
+    width: 38px;
+    height: 38px;
+    background-color: #0b98cd;
+    margin-left: 10px;
+    margin-top: 3px;
+    padding-bottom: 0;
+    background-image: url("../img/search.png");
+    background-repeat: no-repeat;
+    background-position: center; }
+  .button-search input {
+    position: absolute;
+    right: -4px;
+    bottom: -84px;
+    padding: 17px 25px;
+    font-size: 16.67px;
+    font-family: RobotoLightitalic;
+    color: #000;
+    border: 1px solid #cccccc;
+    min-width: 503px;
+    z-index: 69px; }
+    .button-search input::-webkit-input-placeholder {
+      color: #a9a9a9;
+      font-family: RobotoLightitalic;
+      font-size: 16.67px; }
+    .button-search input::-moz-placeholder {
+      color: #a9a9a9;
+      font-family: RobotoLightitalic;
+      font-size: 16.67px; }
+    .button-search input:-moz-placeholder {
+      color: #a9a9a9;
+      font-family: RobotoLightitalic;
+      font-size: 16.67px; }
+    .button-search input:-ms-input-placeholder {
+      color: #a9a9a9;
+      font-family: RobotoLightitalic;
+      font-size: 16.67px; }
+
+.full-banner {
+  background-image: url("../img/banner-bg.png");
+  background-repeat: no-repeat;
+  background-position: 180.6% 121px; }
+
+.banner {
+  background-color: #f1f4f9;
+  border-bottom: 1px solid #c7c7c7; }
+  .banner h2 {
+    font-size: 37.5px;
+    font-family: RobotoLight;
+    margin: 37px 0 0px 61px;
+    padding-bottom: 144px;
+    line-height: 44px;
+    text-transform: uppercase;
+    letter-spacing: 0.1px; }
+  .banner span {
+    font-family: RobotoBold; }
+
+.banner_blue {
+  background-color: #0b98cd;
+  font-family: RobotoBold;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 65px 0 0 10px; }
+  .banner_blue h1 {
+    padding: 20px 46px 16px 45px;
+    font-size: 50px;
+    line-height: 57px;
+    margin: 0; }
+
+.pixperf {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  opacity: .4;
+  margin-left: -960px; }

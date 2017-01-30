@@ -45,6 +45,7 @@ gulp.task('scripts', function() {
 		'./app/libs/jquery/jquery-1.11.2.min.js',
 		'./app/libs/fancyBox/jquery.fancybox.js',
 		'./app/libs/plugins-scroll/plugins-scroll.js',
+		'./app/libs/lightslider/dist/js/lightslider.min.js'
 		])
 		.pipe(concat('libs.js'))
 		//.pipe(uglify()) //Minify libs.js
