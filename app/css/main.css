@@ -335,6 +335,8 @@ body .time p {
       padding: 17px 77px;
       color: #fff;
       text-transform: uppercase; }
+      .forms form button:hover {
+        background-color: #0b98cd; }
 
 .title-form {
   text-align: center;

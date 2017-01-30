@@ -356,6 +356,9 @@ body .time{
             padding: 17px 77px;
             color: #fff;
             text-transform: uppercase;
+            &:hover{
+                background-color: #0b98cd;
+            }
         }
     }
 }
