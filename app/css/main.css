@@ -913,7 +913,8 @@ body .time p {
   width: 18px;
   height: 30px;
   background-position: center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  z-index: 69; }
 
 .partners-slider .lSAction > .lSPrev {
   left: 0;
@@ -927,7 +928,7 @@ body .time p {
   height: 315px !important; }
   #partners li {
     text-align: center;
-    border-right: 1px solid #000;
+    border-right: 1px solid #cccccc;
     width: 215px;
     height: 314px;
     padding-top: 20px;
@@ -938,7 +939,7 @@ body .time p {
 
 .in-part {
   width: 100%;
-  border-bottom: 1px solid #000; }
+  border-bottom: 1px solid #cccccc; }
 
 .in-second-part {
   padding-top: 20px; }
