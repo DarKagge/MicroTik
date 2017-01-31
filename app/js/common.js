@@ -149,3 +149,13 @@ $(function() {
         }
     });
     $('#total').text(autoplaySlider.getTotalSlideCount());
+
+
+
+
+	$('.gallery-item').magnificPopup({
+		type: 'image',
+		gallery:{
+			enabled:true
+		}
+	});

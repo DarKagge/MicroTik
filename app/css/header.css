@@ -1,5 +1,6 @@
 @import url(../libs/animate.css/animate.min.css);
 @import url(../libs/lightslider/dist/css/lightslider.min.css);
+@import url(../libs/magnific-popup/dist/magnific-popup.css);
 body {
   font-size: 16.67px;
   min-width: 320px;
