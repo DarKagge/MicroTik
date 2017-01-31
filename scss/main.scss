@@ -1114,18 +1114,24 @@ body .time{
     }
 }
 .upload{
-    margin-top: 23px;
-    color: #fff;
-    font-size: 18.75px;
-    font-family:RobotoBold;
     display: inline-block;
-    background-color: #46c084;
-    border-radius: 5px;
-    padding: 14px 30px;
-    &:hover{
+    a{
+        margin-top: 23px;
         color: #fff;
-        background-color: #0b98cd;
-        text-decoration: none;
+        display: inline-block;
+        font-size: 18.75px;
+        font-family:RobotoBold;
+        background-color: #46c084;
+        border-radius: 5px;
+        padding: 14px 30px;
+        &:hover{
+            color: #fff;
+            background-color: #0b98cd;
+            text-decoration: none;
+        }
+    }
+    input[type= file]{
+        display: none;
     }
 }
 
@@ -1191,6 +1197,9 @@ footer{
         padding-top: 4px;
         padding-bottom: 1.5px;
         display: block;
+        &:hover{
+            color: #fff;
+        }
     }
     tt{
         padding-left: 9px;

@@ -59,14 +59,14 @@
 		<div class="container-fluid">
 			<div class="inner">
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-xs-12 col-md-6">
 						<div class="logo">
 							<a href="#">
 								<img src="img/logo.png" alt="">
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6">
+					<div class="col-xs-8 col-md-3">
 						<div class="phones">
 							<div class="phones-text">
 								<p>В Москве: </p>
@@ -76,9 +76,11 @@
 								<b>+7 (495) 989-85-33</b>
 								<b>+7 (800) 333-75-33</b>
 							</div>
-							<div class="buttons phones_buttons">
-								<a href="#">Обратный звонок</a>
-							</div>
+						</div>
+					</div>
+					<div class="col-xs-4 col-md-3">
+						<div class="buttons phones_buttons">
+							<a href="#">Обратный звонок</a>
 						</div>
 					</div>
 				</div>
@@ -104,6 +106,27 @@
 								<li><a href="#">Faq</a></li>
 							</ul>
 						</div>
+						<button class="toggle_mnu hidden">
+                            <span class="sandwich">
+                                <span class="sw-topper"></span>
+                                <span class="sw-bottom"></span>
+                                <span class="sw-footer"></span>
+                            </span>
+						</button>
+						<nav class="top_mnu">
+							<ul>
+								<li><a href="#" >Главная<span></span></a></li>
+								<li><a href="#" >Курсы<span></span></a></li>
+								<li><a href="#" >Расписание<span></span></a></li>
+								<li><a href="#" >О тренере<span></span></a></li>
+								<li><a href="#" >Учебный центр<span></span></a></li>
+								<li><a href="#" >Вебинар<span></span></a></li>
+								<li><a href="#" >Услуги<span></span></a></li>
+								<li><a href="#" >Контакты<span></span></a></li>
+								<li><a href="#" >Отзывы<span></span></a></li>
+								<li><a href="#" >Faq<span></span></a></li>
+							</ul>
+						</nav>
 						<div class="button-search pull-right">
 							<a href="#"></a>
 							<input type="text" placeholder="Поиск">
@@ -1144,7 +1167,10 @@
 								<input type="text" name="name" placeholder="Имя" required>
 								<input type="text" name="email" placeholder="E-mail" required>
 								<input type="text" name="phone" placeholder="Телефон" required>
-								<a href="#" name="upload" class="upload">Прикрепить реквизиты</a>
+								<div class="upload">
+									<a href="#" name="upload" >Прикрепить реквизиты</a>
+									<input type="file">
+								</div>
 								<div class="buttons">
 									<a href="#" name="send">Отправить</a>
 								</div>

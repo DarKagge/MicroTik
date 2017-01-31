@@ -1,54 +1,90 @@
 @import "bourbon";
 @import "vars.scss";
 
-/* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-
+@media only screen and (max-width : 1228px){
+	.phones{
+		margin-left: -50px;
+	}
 }
-
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-	.wrapper{
-		width: auto;
-	}
-	.pad{
-		padding: 50px 5px !important;
-	}
-	footer{
-		text-align: center;
-		.wrapper{
-			width: auto;
-		}
-		ul{
-			float: none;
-			display: inline-block;
-			text-align: center;
-			li{
-				margin-bottom: 10px;
-				margin-right: 0;
-				float: none;
-			}
-		}
-		.gs{
-			float: none;
-			display: block;
-		}
+@media only screen and (max-width : 1193px) {
+	.phones-number{
+		padding-left: 10px;
 	}
 }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {
 
+@media only screen and (max-width : 1179px) {
+	.phones-text{
+		padding-left: 0;
+	}
+	.phones-number{
+		padding-left: 5px;
+	}
+}
+
+
+@media only screen and (max-width : 1153px) {
+	.phones_buttons{
+		margin-left: 30px;
+	}
 }
 
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {
-	.pad{
-		padding: 20px 5px !important;
+@media only screen and (max-width : 1128px) {
+	.phones{
+		margin-left: -70px;
 	}
-	// 100% ширина окна
-	// .fancybox-wrap{
-	// 	width: 100% !important;
-	// 	left: 0 !important;
-	// }
+	.phones_buttons{
+		margin-left: 15px;
+	}
+}
+@media only screen and (max-width : 1097px) {
+	.phones_buttons{
+		margin-left: 10px;
+	}
+}
+@media only screen and (max-width : 1088px) {
+	.phones_buttons{
+		margin-left: 5px;
+	}
+}
+@media only screen and (max-width : 1078px) {
+	.phones_buttons{
+		margin-left: 20px;
+	}
+	.menu a{
+		margin-right: 10px;
+	}
+}
+@media only screen and (max-width : 1048px){
+	.phones{
+		margin-left: -90px;
+	}
+}
+@media only screen and (max-width : 1024px) {
+	.phones{
+		margin-left: -100px;
+	}
+	.logo{
+		padding-left: 0px;
+	}
+	.phones-number{
+		padding-left: 21px;
+	}
+	.menu{
+		display: none;
+	}
+	.toggle_mnu{
+		display: block !important;
+		float: left;
+	}
+	.button-search{
+		margin-top: 10px;
+		margin-right: 0;
+		a{
+			background-color: transparent;
+			background-image: url("../img/search-pl.png");
+		}
+	}
+
 }
