@@ -292,7 +292,8 @@ body .time p {
   min-height: 375px; }
   .forms form {
     padding-left: 36px;
-    padding-top: 27px; }
+    padding-top: 27px;
+    text-align: center; }
     .forms form input {
       padding: 16px 35px 16px 45px;
       -webkit-border-radius: 8px;
@@ -523,6 +524,9 @@ body .time p {
     transition: .5s all;
     padding: 9px 20px;
     margin-right: 7px; }
+
+.inputs-change__mobile {
+  display: none; }
 
 .change-blocks {
   margin-top: 99px; }
@@ -1194,6 +1198,58 @@ body .foot-email {
   .phones {
     margin-left: -50px; } }
 
+@media only screen and (max-width: 1229px) {
+  .specialists ul {
+    text-align: center; }
+  .specialists li {
+    max-width: 381px;
+    text-align: left;
+    display: inline-block;
+    float: none;
+    min-height: 359px;
+    margin: 30px 40px;
+    vertical-align: top;
+    margin-bottom: 80px; }
+    .specialists li:first-child:after {
+      position: absolute;
+      right: -50px;
+      top: 189px;
+      content: '';
+      background-image: url("../img/arrow-l.png");
+      background-repeat: no-repeat;
+      background-position: center;
+      width: 15px;
+      height: 26px; }
+    .specialists li:nth-child(2):after {
+      display: none; }
+    .specialists li:nth-child(3):after {
+      right: -50px;
+      background-image: url("../img/arrow-2.png"); } }
+
+@media only screen and (max-width: 1194px) {
+  .inputs-change {
+    display: none; }
+  .inputs-change__mobile {
+    display: block;
+    margin-top: 30px; }
+    .inputs-change__mobile ul {
+      text-align: center; }
+    .inputs-change__mobile li {
+      float: none;
+      display: inline-block; }
+  .change-blocks {
+    margin-top: 0;
+    margin-left: 20px; } }
+
+@media only screen and (max-width: 1192px) {
+  .forms form {
+    padding-left: 0;
+    text-align: center; }
+    .forms form input {
+      margin-bottom: 25px;
+      margin-right: 15px;
+      margin-left: 15px; } }
+
 @media only screen and (max-width: 1193px) {
   .phones-number {
     padding-left: 10px; } }
@@ -1203,6 +1259,19 @@ body .foot-email {
     padding-left: 0; }
   .phones-number {
     padding-left: 5px; } }
+
+@media only screen and (max-width: 1172px) {
+  .experts-side {
+    padding-left: 70px; }
+  .last-side {
+    padding-left: 100px; } }
+
+@media only screen and (max-width: 1158px) {
+  .practice_theory {
+    text-align: center; }
+  .practice_theory ul {
+    margin-left: 0;
+    display: inline-block; } }
 
 @media only screen and (max-width: 1153px) {
   .phones_buttons {
@@ -1250,7 +1319,23 @@ body .foot-email {
     margin-right: 0; }
     .button-search a {
       background-color: transparent;
-      background-image: url("../img/search-pl.png"); } }
+      background-image: url("../img/search-pl.png"); }
+  .banner_blue h1 {
+    font-size: 3.4vw;
+    padding: 10px; }
+  .banner h2 {
+    margin-left: 15px;
+    font-size: 3vw; }
+  .full-banner {
+    background-position: 355% 120px; }
+  .date-item {
+    margin-left: 25px; }
+  .number-course {
+    margin-left: 30px; }
+  .listener__white {
+    text-align: left; }
+  .security-info span {
+    font-family: RobotoBold; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {

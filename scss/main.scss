@@ -333,6 +333,7 @@ body .time{
     form{
         padding-left: 36px;
         padding-top: 27px;
+        text-align: center;
         input{
             padding: 16px 35px 16px 45px;
             border-radius: 8px;
@@ -568,6 +569,9 @@ body .time{
             margin-right: 7px;
         }
     }
+}
+.inputs-change__mobile{
+    display: none;
 }
 .change-blocks{
     margin-top: 99px;
