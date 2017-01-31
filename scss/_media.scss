@@ -113,13 +113,34 @@
 	}
 }
 
-/* Extra Small Devices, Phones */
+@media only screen and (max-width : 1136px){
+	.experts-side{
+		padding-left: 70px;
+		padding-top: 30px;
+	}
+	.last-side{
+		padding-left: 95px;
+	}
+}
+
+@media only screen and (max-width : 1131px){
+
+	.last-side{
+		padding-left: 92px;
+	}
+}
 @media only screen and (max-width : 1128px) {
 	.phones{
 		margin-left: -70px;
 	}
 	.phones_buttons{
 		margin-left: 15px;
+	}
+	.last-side{
+		padding-left: 90px;
+	}
+	.experts-side p{
+		font-size:1.4vw;
 	}
 }
 @media only screen and (max-width : 1097px) {
@@ -194,6 +215,25 @@
 	.security-info{
 		span{
 			font-family:RobotoBold;
+		}
+	}
+	.experts{
+		text-align: center;
+	}
+	.experts-side{
+		float: none;
+		display: inline-block;
+		text-align: left;
+		padding: 0;
+		margin: 40px 40px;
+		width: 100%;
+		max-width: 400px;
+		vertical-align: top;
+		p{
+			font-size:1.6vw;
+		}
+		br{
+			display: none;
 		}
 	}
 }
