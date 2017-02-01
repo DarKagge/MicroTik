@@ -467,14 +467,74 @@
     margin-top: 49px;
   }
 }
+@media only screen and (max-width : 956px){
+  .specialists{
+    li{
+      margin: 30px 25px;
+    }
+  }
+  .specialists li:first-child:after{
+    right: -37px;
+  }
+  .specialists li:nth-child(3):after{
+    right: -37px;
+  }
+}
+@media only screen and (max-width : 896px){
+  .specialists{
+    li{
+      margin: 30px 15px;
+    }
+  }
+  .specialists li:first-child:after{
+    display: none;
+  }
+  .specialists li:nth-child(3):after{
+    display: none;
+  }
+}
+@media only screen and (max-width : 888px){
+  .practice_theory{
+    li{
+      &:first-child{
+        margin-right: 0;
+      }
+      &:nth-child(2){
+        margin: 0 150px;
+      }
+    }
+  }
+  .practice_theory li:after{
+    right: -110px;
+  }
+}
 @media only screen and (max-width : 872px){
   .date-item{
     margin: 25px 10px;
   }
 }
+@media only screen and (max-width : 856px){
+  .specialists {
+    li{
+      margin: 40px 5px;
+    }
+  }
+}
 @media only screen and (max-width : 832px){
   .date-item{
     margin: 25px 5px;
+  }
+}
+@media only screen and (max-width : 820px){
+  .practice_theory{
+    li{
+      &:nth-child(2){
+        margin: 0 120px;
+      }
+    }
+  }
+  .practice_theory li:after{
+    right: -100px;
   }
 }
 @media only screen and (max-width : 812px){
@@ -528,6 +588,60 @@
     display: inline-block;
   }
 }
+@media only screen and (max-width : 760px){
+  .practice_theory{
+    li{
+      &:nth-child(2){
+        margin: 0 100px;
+      }
+    }
+  }
+  .practice_theory li:after{
+    right: -90px;
+  }
+}
+@media only screen and (max-width : 720px){
+  .practice_theory{
+    li{
+      &:nth-child(2){
+        margin: 0 90px;
+      }
+    }
+  }
+  .practice_theory li:after{
+    right: -80px;
+  }
+}
+@media only screen and (max-width : 700px){
+  .practice_theory{
+    li{
+      &:nth-child(2){
+        margin: 0 80px;
+      }
+    }
+  }
+  .practice_theory li:after{
+    display: none;
+  }
+}
+@media only screen and (max-width : 680px){
+  .practice_theory{
+    li{
+      &:nth-child(2){
+        margin: 0 70px;
+      }
+    }
+  }
+}
+@media only screen and (max-width : 660px){
+  .practice_theory{
+    li{
+      &:nth-child(2){
+        margin: 0 60px;
+      }
+    }
+  }
+}
 @media only screen and (max-width : 650px){
   .full-banner{
     background-position: 240px 130px;
@@ -541,6 +655,35 @@
     }
   }
 }
+@media only screen and (max-width : 640px){
+  .practice_theory{
+    li{
+      &:nth-child(2){
+        margin: 0 45px;
+      }
+    }
+  }
+}
+@media only screen and (max-width : 610px){
+  .practice_theory{
+    ul{
+      text-align: center;
+    }
+    li{
+      float: none;
+      display: block;
+      margin: 25px auto !important;
+    }
+    p{
+      margin-left: 0;
+    }
+  }
+  .circle-theory{
+    margin-right: 0;
+    margin-left: 15px;
+  }
+}
+
 @media only screen and (max-width : 560px){
   .full-banner{
     background-position: 150px 130px;
