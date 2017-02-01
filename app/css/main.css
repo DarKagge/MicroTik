@@ -1523,9 +1523,57 @@ body .foot-email {
   .full-banner {
     background-position: 400px 130px; } }
 
+@media only screen and (max-width: 974px) {
+  .date-item {
+    max-width: 379px;
+    vertical-align: top;
+    margin: 25px 20px; }
+  .free-space {
+    margin-right: 0;
+    margin-left: 0; }
+  .in-item {
+    padding-left: 75px; }
+    .in-item span {
+      font-size: 2.6vw; }
+  .right-space {
+    margin-top: 49px; } }
+
+@media only screen and (max-width: 872px) {
+  .date-item {
+    margin: 25px 10px; } }
+
+@media only screen and (max-width: 832px) {
+  .date-item {
+    margin: 25px 5px; } }
+
+@media only screen and (max-width: 812px) {
+  .date-item {
+    margin: 25px 0px; } }
+
 @media only screen and (max-width: 800px) {
   .full-banner {
     background-position: 300px 130px; } }
+
+@media only screen and (max-width: 792px) {
+  .date-item {
+    max-width: 700px;
+    margin-bottom: 65px; }
+    .date-item:last-child {
+      margin-bottom: 0; }
+  .in-item {
+    padding-left: 0;
+    text-align: center; }
+    .in-item span {
+      font-size: 3.6vw; }
+  .calendar {
+    display: inline-block; }
+    .calendar p {
+      font-size: 3.4vw; }
+  .time {
+    display: block; }
+    .time p {
+      display: inline-block;
+      font-size: 3.4vw; } }
 
 @media only screen and (max-width: 767px) {
   .logo {
@@ -1535,6 +1583,19 @@ body .foot-email {
   .phones_buttons {
     float: none;
     display: inline-block; } }
+
+@media only screen and (max-width: 650px) {
+  .full-banner {
+    background-position: 240px 130px; } }
+
+@media only screen and (max-width: 650px) {
+  .full-banner h2 {
+    line-height: 35px;
+    font-size: 3.7vw; } }
+
+@media only screen and (max-width: 560px) {
+  .full-banner {
+    background-position: 150px 130px; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {
