@@ -1442,6 +1442,35 @@ body .foot-email {
     margin-top: 17px;
     display: inline-block; } }
 
+@media only screen and (max-width: 1006px) {
+  .phones {
+    margin-left: -130px; }
+  .phones_buttons {
+    margin-left: 0; } }
+
+@media only screen and (max-width: 991px) {
+  header {
+    height: auto;
+    text-align: center; }
+  .logo {
+    display: inline-block;
+    margin: 50px auto; }
+  .phones {
+    margin-left: 0px;
+    text-align: left; }
+  .buttons {
+    -webkit-border-radius: 7px;
+    border-radius: 7px; }
+  .phones_buttons {
+    float: right;
+    margin-bottom: 20px; }
+  .full-banner {
+    background-position: 800% 120px; }
+  .banner_blue h1 {
+    font-size: 4.4vw; }
+  .banner_blue h2 {
+    font-size: 3.9vw; } }
+
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {
   font: 30px RobotoRegular,Arial,sans-serif;
