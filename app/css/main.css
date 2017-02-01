@@ -1460,11 +1460,19 @@ body .foot-email {
     margin-top: 17px;
     display: inline-block; } }
 
+@media only screen and (max-width: 1021px) {
+  .in-preview {
+    margin: -5px; } }
+
 @media only screen and (max-width: 1006px) {
   .phones {
     margin-left: -130px; }
   .phones_buttons {
     margin-left: 0; } }
+
+@media only screen and (max-width: 1001px) {
+  .in-preview {
+    margin: -10px; } }
 
 @media only screen and (max-width: 991px) {
   header {
@@ -1504,7 +1512,29 @@ body .foot-email {
   .webinar li {
     margin-left: 2px !important; }
   .experts-side {
-    margin: 40px 25px; } }
+    margin: 40px 25px; }
+  .in-preview {
+    max-width: 250px;
+    margin: 0 6px; }
+  .all-footer__menu {
+    padding-left: 30px; } }
+
+@media only screen and (max-width: 979px) {
+  .full-banner {
+    background-position: 400px 130px; } }
+
+@media only screen and (max-width: 800px) {
+  .full-banner {
+    background-position: 300px 130px; } }
+
+@media only screen and (max-width: 767px) {
+  .logo {
+    margin: 25px auto; }
+  .phones {
+    display: inline-block; }
+  .phones_buttons {
+    float: none;
+    display: inline-block; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {
