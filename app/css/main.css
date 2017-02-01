@@ -885,7 +885,7 @@ body .time p {
 
 .right-section__comment {
   padding-top: 54px;
-  padding-left: 56px; }
+  padding-left: 110px; }
   .right-section__comment h2 {
     color: #ea5517;
     font-size: 20.83px;
@@ -1002,7 +1002,10 @@ body .time p {
   .right__forma h2 {
     font-size: 37.5px;
     line-height: 43px;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #626262; }
+  .right__forma br {
+    display: none; }
   .right__forma p {
     font-size: 20.83px;
     padding-top: 5px;
@@ -1194,6 +1197,19 @@ body .foot-email {
 .footer-map img {
   width: 100%; }
 
+@media only screen and (max-width: 1230px) {
+  .in-preview {
+    margin: 0;
+    float: none;
+    max-width: 321px;
+    display: inline-block; }
+    .in-preview img {
+      width: 100%; }
+    .in-preview:nth-child(2) {
+      margin: 0 10px !important; }
+  .photo-preview {
+    text-align: center; } }
+
 @media only screen and (max-width: 1228px) {
   .phones {
     margin-left: -50px; } }
@@ -1225,6 +1241,33 @@ body .foot-email {
     .specialists li:nth-child(3):after {
       right: -50px;
       background-image: url("../img/arrow-2.png"); } }
+
+@media only screen and (max-width: 1200px) {
+  .left-info__text {
+    max-width: 377px;
+    margin-left: 95px;
+    min-height: 574px; }
+    .left-info__text h2 {
+      font-size: 2.8vw; }
+  .right__forma {
+    max-width: 377px;
+    min-height: 574px; }
+    .right__forma h2 {
+      font-size: 2.8vw; }
+    .right__forma br {
+      display: block; }
+  .upload {
+    vertical-align: top; }
+    .upload a {
+      padding: 5px 48px;
+      line-height: 25px; }
+  .right__forma form .buttons {
+    margin-top: 23px;
+    margin-left: 0px; }
+    .right__forma form .buttons a {
+      padding: 14px 23px; }
+  .right__forma form tt {
+    padding-right: 15px; } }
 
 @media only screen and (max-width: 1194px) {
   .inputs-change {
@@ -1364,7 +1407,26 @@ body .foot-email {
     .experts-side p {
       font-size: 1.6vw; }
     .experts-side br {
-      display: none; } }
+      display: none; }
+  .webinar .lSAction {
+    display: none; }
+  .webinar li {
+    margin-right: -4px !important; }
+  .comment-slider {
+    max-width: 750px;
+    margin: 0 auto; }
+  .left-section__comment {
+    padding-left: 31px; }
+  .right-section__comment {
+    padding-left: 40px; }
+  .all-footer__menu {
+    padding-left: 95px; }
+  .second-foot__menu {
+    padding-left: 30px; }
+  .third-foot__menu {
+    padding-left: 30px; }
+  .las-foor__menu {
+    padding-left: 0px; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {

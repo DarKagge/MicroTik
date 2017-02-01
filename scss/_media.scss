@@ -1,10 +1,30 @@
 @import "bourbon";
 @import "vars.scss";
+@media only screen and (max-width : 1230px){
+  .in-preview{
+    margin: 0;
+    float: none;
+    max-width: 321px;
+    display: inline-block;
+    img{
+      width: 100%;
+    }
+    &:nth-child(2){
+      margin: 0 10px !important;
+    }
+  }
 
+  .photo-preview{
+    text-align: center;
+
+  }
+
+}
 @media only screen and (max-width : 1228px){
 	.phones{
 		margin-left: -50px;
 	}
+
 }
 @media only screen and (max-width : 1229px){
 	.specialists{
@@ -40,6 +60,43 @@
 			}
 		}
 	}
+}
+@media only screen and (max-width : 1200px){
+  .left-info__text{
+    max-width: 377px;
+    margin-left: 95px;
+    min-height: 574px;
+    h2{
+      font-size:2.8vw;
+    }
+  }
+  .right__forma{
+    max-width: 377px;
+    min-height: 574px;
+    h2{
+      font-size:2.8vw;
+    }
+    br{
+      display: block;
+    }
+  }
+  .upload{
+    vertical-align: top;
+    a{
+      padding: 5px 48px;
+      line-height: 25px;
+    }
+  }
+  .right__forma form .buttons{
+    margin-top: 23px;
+    margin-left: 0px;
+    a{
+      padding: 14px 23px;
+    }
+  }
+  .right__forma form tt{
+    padding-right: 15px;
+  }
 }
 @media only screen and (max-width : 1194px){
 	.inputs-change{
@@ -236,4 +293,32 @@
 			display: none;
 		}
 	}
+  .webinar .lSAction{
+    display: none;
+  }
+  .webinar li{
+    margin-right: -4px !important;
+  }
+  .comment-slider{
+    max-width: 750px;
+    margin: 0 auto;
+  }
+  .left-section__comment{
+    padding-left: 31px;
+  }
+  .right-section__comment{
+    padding-left: 40px;
+  }
+  .all-footer__menu{
+    padding-left: 95px;
+  }
+  .second-foot__menu{
+    padding-left: 30px;
+  }
+  .third-foot__menu{
+    padding-left: 30px;
+  }
+  .las-foor__menu{
+    padding-left: 0px;
+  }
 }

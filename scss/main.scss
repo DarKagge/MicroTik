@@ -945,7 +945,7 @@ body .time{
 }
 .right-section__comment{
     padding-top: 54px;
-    padding-left: 56px;
+    padding-left: 110px;
     h2{
         color: #ea5517;
         font-size:20.83px;
@@ -1083,6 +1083,10 @@ body .time{
         font-size:37.5px;
         line-height: 43px;
         text-transform: uppercase;
+        color: #626262;
+    }
+    br{
+        display: none;
     }
     p{
         font-size:20.83px;
