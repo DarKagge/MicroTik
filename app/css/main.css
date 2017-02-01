@@ -1323,6 +1323,15 @@ body .foot-email {
   .phones_buttons {
     margin-left: 30px; } }
 
+@media only screen and (max-width: 1147px) {
+  .all-items {
+    text-align: center; }
+  .date-item {
+    float: none;
+    display: inline-block;
+    margin: 0 15px;
+    text-align: left; } }
+
 @media only screen and (max-width: 1136px) {
   .experts-side {
     padding-left: 70px;
@@ -1388,8 +1397,13 @@ body .foot-email {
     font-size: 3vw; }
   .full-banner {
     background-position: 355% 120px; }
+  .all-items {
+    text-align: center; }
   .date-item {
-    margin-left: 25px; }
+    float: none;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: left; }
   .number-course {
     margin-left: 30px; }
   .listener__white {
@@ -1469,7 +1483,14 @@ body .foot-email {
   .banner_blue h1 {
     font-size: 4.4vw; }
   .banner_blue h2 {
-    font-size: 3.9vw; } }
+    font-size: 3.9vw; }
+  .all-items {
+    text-align: center; }
+  .date-item {
+    float: none;
+    display: inline-block;
+    margin: 0 5px;
+    text-align: left; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {

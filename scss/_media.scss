@@ -169,7 +169,17 @@
 		margin-left: 30px;
 	}
 }
-
+@media only screen and (max-width : 1147px){
+  .all-items{
+    text-align: center;
+  }
+  .date-item{
+    float: none;
+    display: inline-block;
+    margin: 0 15px;
+    text-align: left;
+  }
+}
 @media only screen and (max-width : 1136px){
 	.experts-side{
 		padding-left: 70px;
@@ -260,9 +270,15 @@
 	.full-banner{
 		background-position: 355% 120px;
 	}
-	.date-item{
-		margin-left: 25px;
-	}
+  .all-items{
+    text-align: center;
+  }
+  .date-item{
+    float: none;
+    display: inline-block;
+    margin: 0 10px;
+    text-align: left;
+  }
 	.number-course{
 		margin-left: 30px;
 	}
@@ -375,5 +391,14 @@
     h2{
       font-size:3.9vw;
     }
+  }
+  .all-items{
+    text-align: center;
+  }
+  .date-item{
+    float: none;
+    display: inline-block;
+    margin: 0 5px;
+    text-align: left;
   }
 }
