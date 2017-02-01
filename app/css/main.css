@@ -1426,9 +1426,13 @@ body .foot-email {
     .experts-side br {
       display: none; }
   .webinar .lSAction {
-    display: none; }
+    display: none !important; }
   .webinar li {
     margin-right: -4px !important; }
+  .left-section_webinar h2 {
+    padding-left: 5px; }
+  .left-section_webinar p {
+    padding-left: 5px; }
   .comment-slider {
     max-width: 750px;
     margin: 0 auto; }
@@ -1490,7 +1494,17 @@ body .foot-email {
     float: none;
     display: inline-block;
     margin: 0 5px;
-    text-align: left; } }
+    text-align: left; }
+  .left-section_webinar {
+    padding-left: 20px; }
+    .left-section_webinar h2 {
+      padding-left: 22px; }
+    .left-section_webinar p {
+      padding-left: 22px; }
+  .webinar li {
+    margin-left: 2px !important; }
+  .experts-side {
+    margin: 40px 25px; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {
