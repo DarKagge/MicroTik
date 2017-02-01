@@ -1197,6 +1197,9 @@ body .foot-email {
 .footer-map img {
   width: 100%; }
 
+.vox {
+  display: none; }
+
 @media only screen and (max-width: 1230px) {
   .in-preview {
     margin: 0;
@@ -1426,7 +1429,18 @@ body .foot-email {
   .third-foot__menu {
     padding-left: 30px; }
   .las-foor__menu {
-    padding-left: 0px; } }
+    padding-left: 0px; }
+  .foot-nav {
+    text-align: center; }
+  .footer-logo {
+    float: left;
+    margin-left: 0; }
+  .vox {
+    display: inline-block;
+    margin-top: 15px; }
+  .scroll-up a {
+    margin-top: 17px;
+    display: inline-block; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {
