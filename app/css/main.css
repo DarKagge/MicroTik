@@ -1546,6 +1546,14 @@ body .foot-email {
   .specialists li:nth-child(3):after {
     right: -37px; } }
 
+@media only screen and (max-width: 905px) {
+  .forms form input {
+    width: 43.5%;
+    margin: 10px 10px; }
+  .forms form button {
+    padding: 17px 137.6px;
+    margin: 10px 10px; } }
+
 @media only screen and (max-width: 896px) {
   .specialists li {
     margin: 30px 15px; }
@@ -1580,13 +1588,31 @@ body .foot-email {
   .practice_theory li:after {
     right: -100px; } }
 
+@media only screen and (max-width: 816px) {
+  .specialists li {
+    margin: 40px 0px; } }
+
 @media only screen and (max-width: 812px) {
   .date-item {
     margin: 25px 0px; } }
 
 @media only screen and (max-width: 800px) {
   .full-banner {
-    background-position: 300px 130px; } }
+    background-position: 300px 130px; }
+  .usefully .col-md-12 {
+    padding: 0 10px; }
+  .specialists li {
+    margin: 40px 3px; } }
+
+@media only screen and (max-width: 798px) {
+  .usefully .col-md-12 {
+    padding: 0 15px; }
+  .specialists li {
+    max-width: 500px;
+    text-align: center; }
+    .specialists li p {
+      font-size: 2.5vw;
+      text-align: left; } }
 
 @media only screen and (max-width: 792px) {
   .date-item {
