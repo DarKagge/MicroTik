@@ -515,6 +515,11 @@
     }
   }
 }
+@media only screen and (max-width : 934px){
+  .experts-side{
+    margin: 40px 17px;
+  }
+}
 @media only screen and (max-width : 922px){
   .listener-item{
     margin: 25px 7px;
@@ -536,6 +541,11 @@
         margin: 10px 10px;
       }
     }
+  }
+}
+@media only screen and (max-width : 902px){
+  .experts-side{
+    margin: 40px 14px;
   }
 }
 @media only screen and (max-width : 900px){
@@ -583,6 +593,11 @@
     display: none;
   }
 }
+@media only screen and (max-width : 890px){
+  .experts-side{
+    margin: 40px 10px;
+  }
+}
 @media only screen and (max-width : 888px){
   .practice_theory{
     li{
@@ -601,6 +616,9 @@
 @media only screen and (max-width : 874px){
   .listener-item{
     margin: 25px 2px;
+  }
+  .experts-side{
+    margin: 40px 5px;
   }
 }
 @media only screen and (max-width : 872px){
@@ -630,14 +648,38 @@
     }
   }
 }
+@media only screen and (max-width : 854px){
+  .experts-side{
+    margin: 40px 0;
+  }
+}
 @media only screen and (max-width : 842px){
   .listener-item{
     margin: 25px 0 0 15px;
   }
 }
+@media only screen and (max-width : 834px){
+  .experts-side{
+    max-width: 370px;
+    float: left;
+    display: block;
+    margin-right: 30px;
+  }
+}
 @media only screen and (max-width : 832px){
   .date-item{
     margin: 25px 5px;
+  }
+  .in-preview{
+    margin: 0;
+  }
+}
+@media only screen and (max-width : 829px){
+  .experts-side{
+    margin-right: 15px;
+    p{
+      font-size:2vw;
+    }
   }
 }
 @media only screen and (max-width : 822px){
@@ -677,6 +719,14 @@
     margin: 25px 0px;
   }
 }
+@media only screen and (max-width : 808px){
+  .in-preview{
+    margin: 5px 0;
+  }
+  .in-preview:nth-child(2){
+    margin: 0 5px !important;
+  }
+}
 @media only screen and (max-width : 802px){
   .listener-item{
     margin: 25px 0 0 5px;
@@ -707,6 +757,14 @@
         padding: 16px;
       }
     }
+  }
+}
+@media only screen and (max-width : 799px){
+  .experts-side{
+    float: none;
+    display: inline-block;
+    max-width: 450px;
+    text-align: center;
   }
 }
 @media only screen and (max-width : 798px){
@@ -887,6 +945,11 @@
 @media only screen and (max-width : 650px){
   .full-banner{
     background-position: 240px 130px;
+  }
+  .experts-side{
+    p{
+      font-size:2.5vw;
+    }
   }
 }
 @media only screen and (max-width : 650px){
