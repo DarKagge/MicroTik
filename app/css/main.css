@@ -1521,7 +1521,14 @@ body .foot-email {
   .all-footer__menu {
     padding-left: 30px; }
   .listener-item {
-    margin: 25px 8px; } }
+    margin: 25px 8px; }
+  .left-info__text {
+    margin-left: 0;
+    display: inline-block; }
+  .right__forma {
+    margin-left: 0; }
+  .bottom-forma div[class^=col-sm-6] {
+    text-align: right; } }
 
 @media only screen and (max-width: 986px) {
   .listener-item {
@@ -1831,7 +1838,20 @@ body .foot-email {
   .left-info__text {
     margin: 20px auto; }
   .right__forma {
-    margin: 0 auto; } }
+    margin: 0 auto; }
+  #comment {
+    height: auto !important; }
+  .left-section__comment {
+    padding-left: 0;
+    padding-bottom: 10px;
+    text-align: center; }
+  .right-section__comment {
+    padding-top: 0;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 25px; }
+  .right-section__comment .comment__line {
+    margin: 5px auto; } }
 
 @media only screen and (max-width: 760px) {
   .practice_theory li:nth-child(2) {
