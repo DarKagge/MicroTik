@@ -389,8 +389,46 @@ header{
 
 .call-back__popup{
 	max-width: 762px;
+	position: relative;
+	margin:0 auto;
 	width: 100%;
 	background-color: #fff;
 	border: 5px solid #adc0c6;
 	border-radius: 7px;
+	text-align: center;
+	padding-top: 30px;
+	h2{
+		color: #0992c9;
+		font-size: 29.17px;
+		text-transform: uppercase;
+	}
+	p{
+		font-size: 20.83px;
+		color: #626262;
+
+	}
+	h3{
+		font-size:29.17px;
+	}
+	input{
+		max-width: 283px;
+		width: 100%;
+		background-color: #f5f6f7;
+		border: 1px solid #d9d7d7;
+		border-radius: 8px;
+		padding: 5px 30px;
+		font-size:20.83px;
+		@include placeholder{
+			font-size:20.83px;
+		}
+	}
+	.buttons{
+		float: none;
+		margin-left: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	img{
+		margin-top: -110px;
+	}
 }

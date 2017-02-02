@@ -1511,6 +1511,8 @@ body .foot-email {
       padding-left: 22px; }
     .left-section_webinar p {
       padding-left: 22px; }
+  .right-section_webinar {
+    margin-left: 0; }
   .webinar li {
     margin-left: 2px !important; }
   .experts-side {

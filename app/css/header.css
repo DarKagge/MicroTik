@@ -367,8 +367,45 @@ header {
 
 .call-back__popup {
   max-width: 762px;
+  position: relative;
+  margin: 0 auto;
   width: 100%;
   background-color: #fff;
   border: 5px solid #adc0c6;
   -webkit-border-radius: 7px;
-  border-radius: 7px; }
+  border-radius: 7px;
+  text-align: center;
+  padding-top: 30px; }
+  .call-back__popup h2 {
+    color: #0992c9;
+    font-size: 29.17px;
+    text-transform: uppercase; }
+  .call-back__popup p {
+    font-size: 20.83px;
+    color: #626262; }
+  .call-back__popup h3 {
+    font-size: 29.17px; }
+  .call-back__popup input {
+    max-width: 283px;
+    width: 100%;
+    background-color: #f5f6f7;
+    border: 1px solid #d9d7d7;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    padding: 5px 30px;
+    font-size: 20.83px; }
+    .call-back__popup input::-webkit-input-placeholder {
+      font-size: 20.83px; }
+    .call-back__popup input::-moz-placeholder {
+      font-size: 20.83px; }
+    .call-back__popup input:-moz-placeholder {
+      font-size: 20.83px; }
+    .call-back__popup input:-ms-input-placeholder {
+      font-size: 20.83px; }
+  .call-back__popup .buttons {
+    float: none;
+    margin-left: 0;
+    margin-top: 20px;
+    margin-bottom: 20px; }
+  .call-back__popup img {
+    margin-top: -110px; }
