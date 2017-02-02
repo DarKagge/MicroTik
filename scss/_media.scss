@@ -452,9 +452,16 @@
   .right__forma{
     margin-left: 0;
   }
-  .bottom-forma{
+  .bottom-forma {
     div[class^= col-sm-6]{
       text-align: right;
+    }
+  }
+  .partners .lSSlideOuter{
+    max-width: 700px;
+    margin: 0 auto;
+    li{
+      max-width: 228px !important;
     }
   }
 }
@@ -935,6 +942,51 @@
     display: block;
     float: none !important;
   }
+  .all-footer__menu{
+    text-align: center;
+    padding-left: 0;
+    li{
+      padding-left: 0;
+    }
+    tt{
+      padding-left: 0;
+    }
+    p{
+      padding-left: 0;
+    }
+  }
+  .foot-way{
+    margin: 25px 0;
+  }
+  .foot-telephone{
+    margin: 25px 0;
+  }
+  .all-footer__menu{
+    h3{
+      font-size:5vw;
+    }
+    a{
+      font-size:2.6vw;
+    }
+    tt{
+      font-size: 2.6vw;
+    }
+    span{
+      font-size:3vw;
+    }
+  }
+  .all-footer__menu p:after{
+    left: 50%;
+    margin-left: -8px;
+    top: -19px;
+  }
+  body .foot-email{
+    display: inline-block;
+  }
+  .footer-logo{
+    float: none;
+    margin: 15px auto;
+  }
 }
 @media only screen and (max-width : 760px){
   .practice_theory{
@@ -1095,6 +1147,17 @@
   .experts-side p{
     font-size:4vw;
   }
+  .all-footer__menu{
+    h3{
+      font-size:6vw;
+    }
+    a{
+      font-size:4vw;
+    }
+    tt{
+      font-size:4vw;
+    }
+  }
 }
 @media only screen and (max-width : 490px){
   .forms form {
@@ -1157,6 +1220,19 @@
   }
   .foto-trainer img{
     width: 100%;
+  }
+  .foot-nav{
+    text-align: center;
+  }
+  .vox{
+    display: block;
+  }
+  .scroll-up{
+    float: none !important;
+    display: inline-block;
+    a{
+      margin-left: 0;
+    }
   }
 }
 @media only screen and (max-width : 348px){

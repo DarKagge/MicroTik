@@ -308,14 +308,21 @@ header{
 
 .sandwich.active{
 	position: fixed;
+	top: -145px;
 }
 .sandwich.active .sw-topper {
-	top: 0px;
+	width: 25px;
+	height: 5px;
+	background-color: #fff;
+	top: 5px;
 	left: 170px;
 	-webkit-transform: rotate(-45deg);
 	-ms-transform: rotate(-45deg);
 	transform: rotate(-45deg); }
 .sandwich.active .sw-bottom {
+	width: 25px;
+	height: 5px;
+	background-color: #fff;
 	top: 0px;
 	left: 170px;
 	-webkit-transform: rotate(45deg);

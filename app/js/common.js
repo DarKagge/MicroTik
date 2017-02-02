@@ -144,6 +144,23 @@ $(function() {
         loop:true,
         pager:false,
         pauseOnHover: true,
+		responsive : [
+			{
+				breakpoint:1024,
+				settings: {
+					item:3,
+					slideMove:1,
+					slideMargin:6,
+				}
+			},
+			{
+				breakpoint:991,
+				settings: {
+					item:3,
+					slideMove:1
+				}
+			}
+		],
         onBeforeSlide: function (el) {
             $('#current').text(el.getCurrentSlideCount());
         }
@@ -183,3 +200,16 @@ $(function() {
 			$(".top_mnu li a").addClass("fadeInUp animated");
 		}
 	});
+
+
+
+
+
+
+
+
+
+
+
+
+

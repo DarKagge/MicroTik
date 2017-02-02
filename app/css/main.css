@@ -1528,7 +1528,12 @@ body .foot-email {
   .right__forma {
     margin-left: 0; }
   .bottom-forma div[class^=col-sm-6] {
-    text-align: right; } }
+    text-align: right; }
+  .partners .lSSlideOuter {
+    max-width: 700px;
+    margin: 0 auto; }
+    .partners .lSSlideOuter li {
+      max-width: 228px !important; } }
 
 @media only screen and (max-width: 986px) {
   .listener-item {
@@ -1864,7 +1869,37 @@ body .foot-email {
     text-align: center; }
   .right__forma form tt {
     display: block;
-    float: none !important; } }
+    float: none !important; }
+  .all-footer__menu {
+    text-align: center;
+    padding-left: 0; }
+    .all-footer__menu li {
+      padding-left: 0; }
+    .all-footer__menu tt {
+      padding-left: 0; }
+    .all-footer__menu p {
+      padding-left: 0; }
+  .foot-way {
+    margin: 25px 0; }
+  .foot-telephone {
+    margin: 25px 0; }
+  .all-footer__menu h3 {
+    font-size: 5vw; }
+  .all-footer__menu a {
+    font-size: 2.6vw; }
+  .all-footer__menu tt {
+    font-size: 2.6vw; }
+  .all-footer__menu span {
+    font-size: 3vw; }
+  .all-footer__menu p:after {
+    left: 50%;
+    margin-left: -8px;
+    top: -19px; }
+  body .foot-email {
+    display: inline-block; }
+  .footer-logo {
+    float: none;
+    margin: 15px auto; } }
 
 @media only screen and (max-width: 760px) {
   .practice_theory li:nth-child(2) {
@@ -1957,6 +1992,12 @@ body .foot-email {
   .right__forma h2 {
     font-size: 7vw; }
   .experts-side p {
+    font-size: 4vw; }
+  .all-footer__menu h3 {
+    font-size: 6vw; }
+  .all-footer__menu a {
+    font-size: 4vw; }
+  .all-footer__menu tt {
     font-size: 4vw; } }
 
 @media only screen and (max-width: 490px) {
@@ -1995,7 +2036,16 @@ body .foot-email {
   .right__forma form .buttons a {
     padding: 15px 103px; }
   .foto-trainer img {
-    width: 100%; } }
+    width: 100%; }
+  .foot-nav {
+    text-align: center; }
+  .vox {
+    display: block; }
+  .scroll-up {
+    float: none !important;
+    display: inline-block; }
+    .scroll-up a {
+      margin-left: 0; } }
 
 @media only screen and (max-width: 348px) {
   .phones-text {
