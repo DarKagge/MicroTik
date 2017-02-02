@@ -366,6 +366,7 @@ body .time p {
   left: 10px;
   top: 12px;
   width: 64px;
+  background-color: #fff;
   height: 64px;
   -webkit-border-radius: 150px;
   border-radius: 150px;
@@ -1249,7 +1250,8 @@ body .foot-email {
   .left-info__text {
     max-width: 377px;
     margin-left: 95px;
-    min-height: 574px; }
+    min-height: 574px;
+    width: 100%; }
     .left-info__text h2 {
       font-size: 2.8vw; }
   .right__forma {
@@ -1517,11 +1519,21 @@ body .foot-email {
     max-width: 250px;
     margin: 0 6px; }
   .all-footer__menu {
-    padding-left: 30px; } }
+    padding-left: 30px; }
+  .listener-item {
+    margin: 25px 8px; } }
+
+@media only screen and (max-width: 986px) {
+  .listener-item {
+    margin: 25px 7px; } }
 
 @media only screen and (max-width: 979px) {
   .full-banner {
     background-position: 400px 130px; } }
+
+@media only screen and (max-width: 978px) {
+  .listener-item {
+    margin: 25px 6px; } }
 
 @media only screen and (max-width: 974px) {
   .date-item {
@@ -1538,6 +1550,15 @@ body .foot-email {
   .right-space {
     margin-top: 49px; } }
 
+@media only screen and (max-width: 970px) {
+  .listener-item {
+    max-width: 200px;
+    margin: 25px 13px; } }
+
+@media only screen and (max-width: 959px) {
+  .webinar li {
+    margin: 0 !important; } }
+
 @media only screen and (max-width: 956px) {
   .specialists li {
     margin: 30px 25px; }
@@ -1546,13 +1567,51 @@ body .foot-email {
   .specialists li:nth-child(3):after {
     right: -37px; } }
 
+@media only screen and (max-width: 946px) {
+  .listener-item {
+    margin: 25px 10px; }
+    .listener-item p {
+      font-size: 1.9vw; } }
+
+@media only screen and (max-width: 922px) {
+  .listener-item {
+    margin: 25px 7px; }
+    .listener-item p {
+      font-size: 1.9vw; } }
+
 @media only screen and (max-width: 905px) {
-  .forms form input {
-    width: 43.5%;
-    margin: 10px 10px; }
-  .forms form button {
-    padding: 17px 137.6px;
-    margin: 10px 10px; } }
+  .forms {
+    background-size: cover; }
+    .forms form input {
+      width: 43.5%;
+      margin: 10px 10px; }
+    .forms form button {
+      width: 43.5%;
+      margin: 10px 10px; } }
+
+@media only screen and (max-width: 900px) {
+  .number-course {
+    margin-left: 0;
+    max-width: 220px;
+    width: 100%;
+    padding-right: 0; }
+    .number-course img {
+      width: 100%; }
+  .course-describe {
+    padding-left: 25px; }
+    .course-describe h2 {
+      font-size: 3.5vw;
+      line-height: 40px; }
+  .item-course__indent3 .number-course {
+    margin-left: 25px; }
+  .item-course__indent3 .count {
+    left: -18px; } }
+
+@media only screen and (max-width: 898px) {
+  .listener-item {
+    margin: 25px 4px; }
+    .listener-item p {
+      font-size: 1.9vw; } }
 
 @media only screen and (max-width: 896px) {
   .specialists li {
@@ -1570,17 +1629,39 @@ body .foot-email {
   .practice_theory li:after {
     right: -110px; } }
 
+@media only screen and (max-width: 874px) {
+  .listener-item {
+    margin: 25px 2px; } }
+
 @media only screen and (max-width: 872px) {
   .date-item {
     margin: 25px 10px; } }
 
+@media only screen and (max-width: 858px) {
+  .listener-item {
+    max-width: 180px;
+    margin: 25px 10px; } }
+
 @media only screen and (max-width: 856px) {
   .specialists li {
-    margin: 40px 5px; } }
+    margin: 40px 5px; }
+  .info-block {
+    padding-left: 45px; }
+  .foto-trainer img {
+    margin-left: -80px;
+    margin-right: 0; } }
+
+@media only screen and (max-width: 842px) {
+  .listener-item {
+    margin: 25px 0 0 15px; } }
 
 @media only screen and (max-width: 832px) {
   .date-item {
     margin: 25px 5px; } }
+
+@media only screen and (max-width: 822px) {
+  .listener-item {
+    margin: 25px 0 0 10px; } }
 
 @media only screen and (max-width: 820px) {
   .practice_theory li:nth-child(2) {
@@ -1592,9 +1673,19 @@ body .foot-email {
   .specialists li {
     margin: 40px 0px; } }
 
+@media only screen and (max-width: 814px) {
+  .info-block {
+    padding-left: 25px; }
+  .foto-trainer img {
+    margin-left: -110px; } }
+
 @media only screen and (max-width: 812px) {
   .date-item {
     margin: 25px 0px; } }
+
+@media only screen and (max-width: 802px) {
+  .listener-item {
+    margin: 25px 0 0 5px; } }
 
 @media only screen and (max-width: 800px) {
   .full-banner {
@@ -1602,7 +1693,16 @@ body .foot-email {
   .usefully .col-md-12 {
     padding: 0 10px; }
   .specialists li {
-    margin: 40px 3px; } }
+    margin: 40px 3px; }
+  .forms {
+    background-size: cover; }
+    .forms form input {
+      width: 46.5%;
+      margin: 10px 5px; }
+    .forms form button {
+      width: 46.5%;
+      margin: 10px 5px;
+      padding: 16px; } }
 
 @media only screen and (max-width: 798px) {
   .usefully .col-md-12 {
@@ -1635,6 +1735,20 @@ body .foot-email {
       display: inline-block;
       font-size: 3.4vw; } }
 
+@media only screen and (max-width: 782px) {
+  .listener__white {
+    text-align: center; }
+  .listener-item {
+    max-width: 220px;
+    margin: 25px 13px; }
+    .listener-item p {
+      font-size: 2.6vw; } }
+
+@media only screen and (max-width: 779px) {
+  .change-blocks {
+    padding-left: 0px;
+    margin-left: 10px; } }
+
 @media only screen and (max-width: 767px) {
   .logo {
     margin: 25px auto; }
@@ -1642,7 +1756,36 @@ body .foot-email {
     display: inline-block; }
   .phones_buttons {
     float: none;
-    display: inline-block; } }
+    display: inline-block; }
+  .number-course {
+    max-width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0; }
+  .course-describe h2 {
+    text-align: center; }
+  .item-course__indent2 .number-course {
+    padding: 0; }
+  .item-course__indent3 .number-course {
+    margin: 0 auto;
+    padding: 0; }
+  .item-course__indent4 .number-course {
+    padding: 0; }
+  .info-block {
+    padding-left: 0; }
+  .change-blocks ul {
+    text-align: center;
+    padding-bottom: 25px; }
+  .change-blocks li {
+    float: none;
+    display: inline-block;
+    vertical-align: top; }
+  .inputs-change__mobile li {
+    margin-bottom: 15px; }
+  .left-info__text {
+    margin: 20px auto; }
+  .right__forma {
+    margin: 0 auto; } }
 
 @media only screen and (max-width: 760px) {
   .practice_theory li:nth-child(2) {
@@ -1654,7 +1797,9 @@ body .foot-email {
   .practice_theory li:nth-child(2) {
     margin: 0 90px; }
   .practice_theory li:after {
-    right: -80px; } }
+    right: -80px; }
+  .practice {
+    background-size: cover; } }
 
 @media only screen and (max-width: 700px) {
   .practice_theory li:nth-child(2) {
@@ -1694,11 +1839,70 @@ body .foot-email {
     margin-left: 0; }
   .circle-theory {
     margin-right: 0;
-    margin-left: 15px; } }
+    margin-left: 15px; }
+  .course-describe h2 {
+    font-size: 4.8vw; } }
 
 @media only screen and (max-width: 560px) {
   .full-banner {
-    background-position: 150px 130px; } }
+    background-position: 150px 130px; }
+  .safeguard {
+    background-size: cover;
+    padding-bottom: 25px; } }
+
+@media only screen and (max-width: 526px) {
+  .listener-item p {
+    font-size: 4vw; } }
+
+@media only screen and (max-width: 500px) {
+  .full-banner {
+    text-align: center; }
+    .full-banner h2 {
+      font-size: 4.8vw; }
+  .banner_blue {
+    display: inline-block;
+    margin: 80px 0 0 0; }
+    .banner_blue h1 {
+      line-height: 30px;
+      font-size: 6vw; }
+  .calendar p:after {
+    display: none; }
+  body .time p:after {
+    display: none; }
+  .specialists li p {
+    font-size: 4vw; } }
+
+@media only screen and (max-width: 490px) {
+  .forms form input {
+    width: 90%; }
+  .forms form button {
+    width: 90%; } }
+
+@media only screen and (max-width: 482px) {
+  .title-form h2 {
+    font-size: 10.3vw; } }
+
+@media only screen and (max-width: 445px) {
+  .title-form h2 {
+    font-size: 10vw;
+    line-height: 45px; }
+  .course-describe h2 {
+    font-size: 5.8vw; } }
+
+@media only screen and (max-width: 420px) {
+  .full-banner {
+    background-image: none; }
+  .listener-item p {
+    font-size: 5vw; } }
+
+@media only screen and (max-width: 348px) {
+  .phones-text {
+    float: none;
+    text-align: center; }
+  .phones-number {
+    padding-left: 0; }
+  .course-describe h2 {
+    font-size: 6.3vw; } }
 
 /* ============================ form css =========================== */
 #modal_callback_ok h3, #modal_callback_ok h4 {
