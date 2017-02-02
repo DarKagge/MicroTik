@@ -464,6 +464,11 @@
       max-width: 228px !important;
     }
   }
+  .bottom-forma {
+    div[class^= col-sm-6]{
+      text-align: right;
+    }
+  }
 }
 @media only screen and (max-width : 986px){
   .listener-item{
