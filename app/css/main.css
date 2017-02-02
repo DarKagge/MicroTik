@@ -1270,7 +1270,7 @@ body .foot-email {
     margin-top: 23px;
     margin-left: 0px; }
     .right__forma form .buttons a {
-      padding: 14px 23px; }
+      padding: 15px 23px; }
   .right__forma form tt {
     padding-right: 15px; } }
 
@@ -1634,7 +1634,9 @@ body .foot-email {
   .specialists li:first-child:after {
     display: none; }
   .specialists li:nth-child(3):after {
-    display: none; } }
+    display: none; }
+  .all-footer__menu span {
+    font-size: 1.9vw; } }
 
 @media only screen and (max-width: 890px) {
   .experts-side {
@@ -1836,9 +1838,15 @@ body .foot-email {
   .inputs-change__mobile li {
     margin-bottom: 15px; }
   .left-info__text {
-    margin: 20px auto; }
+    margin: 20px auto;
+    max-width: 700px; }
+    .left-info__text h2 {
+      font-size: 4.7vw; }
   .right__forma {
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 700px; }
+    .right__forma h2 {
+      font-size: 4.7vw; }
   #comment {
     height: auto !important; }
   .left-section__comment {
@@ -1851,7 +1859,12 @@ body .foot-email {
     text-align: center;
     padding-bottom: 25px; }
   .right-section__comment .comment__line {
-    margin: 5px auto; } }
+    margin: 5px auto; }
+  .bottom-forma div[class^=col-xs-12] {
+    text-align: center; }
+  .right__forma form tt {
+    display: block;
+    float: none !important; } }
 
 @media only screen and (max-width: 760px) {
   .practice_theory li:nth-child(2) {
@@ -1938,6 +1951,12 @@ body .foot-email {
   body .time p:after {
     display: none; }
   .specialists li p {
+    font-size: 4vw; }
+  .left-info__text h2 {
+    font-size: 7vw; }
+  .right__forma h2 {
+    font-size: 7vw; }
+  .experts-side p {
     font-size: 4vw; } }
 
 @media only screen and (max-width: 490px) {
@@ -1962,6 +1981,21 @@ body .foot-email {
     background-image: none; }
   .listener-item p {
     font-size: 5vw; } }
+
+@media only screen and (max-width: 400px) {
+  .upload {
+    display: block; }
+    .upload a {
+      margin: 10px auto;
+      padding: 5px 97px; }
+  .all-title h2 {
+    font-size: 10vw; }
+  .left-info__text b {
+    font-size: 9vw; }
+  .right__forma form .buttons a {
+    padding: 15px 103px; }
+  .foto-trainer img {
+    width: 100%; } }
 
 @media only screen and (max-width: 348px) {
   .phones-text {
