@@ -364,3 +364,11 @@ header {
 
 .top_mnu ul a span:hover {
   background-color: rgba(255, 255, 255, 0.08); }
+
+.call-back__popup {
+  max-width: 762px;
+  width: 100%;
+  background-color: #fff;
+  border: 5px solid #adc0c6;
+  -webkit-border-radius: 7px;
+  border-radius: 7px; }
