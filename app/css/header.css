@@ -23,6 +23,8 @@ a, button, input, textarea {
 
 a {
   color: #757575; }
+  a:focus {
+    text-decoration: none; }
 
 b {
   font-family: RobotoBold; }
@@ -365,7 +367,7 @@ header {
 .top_mnu ul a span:hover {
   background-color: rgba(255, 255, 255, 0.08); }
 
-.call-back__popup {
+.popup {
   max-width: 762px;
   position: relative;
   margin: 0 auto;
@@ -376,16 +378,16 @@ header {
   border-radius: 7px;
   text-align: center;
   padding-top: 30px; }
-  .call-back__popup h2 {
+  .popup h2 {
     color: #0992c9;
     font-size: 29.17px;
     text-transform: uppercase; }
-  .call-back__popup p {
+  .popup p {
     font-size: 20.83px;
     color: #626262; }
-  .call-back__popup h3 {
+  .popup h3 {
     font-size: 29.17px; }
-  .call-back__popup input {
+  .popup input {
     max-width: 283px;
     width: 100%;
     background-color: #f5f6f7;
@@ -394,18 +396,60 @@ header {
     border-radius: 8px;
     padding: 5px 30px;
     font-size: 20.83px; }
-    .call-back__popup input::-webkit-input-placeholder {
+    .popup input::-webkit-input-placeholder {
       font-size: 20.83px; }
-    .call-back__popup input::-moz-placeholder {
+    .popup input::-moz-placeholder {
       font-size: 20.83px; }
-    .call-back__popup input:-moz-placeholder {
+    .popup input:-moz-placeholder {
       font-size: 20.83px; }
-    .call-back__popup input:-ms-input-placeholder {
+    .popup input:-ms-input-placeholder {
       font-size: 20.83px; }
-  .call-back__popup .buttons {
+  .popup img {
+    position: relative; }
+  .popup .buttons {
     float: none;
     margin-left: 0;
     margin-top: 20px;
     margin-bottom: 20px; }
-  .call-back__popup img {
-    margin-top: -110px; }
+
+.call-back img {
+  margin-top: -110px; }
+
+.popup .mfp-close {
+  width: 32px;
+  height: 32px;
+  background-color: #fff !important;
+  right: -16px;
+  top: -16px;
+  -webkit-border-radius: 120px;
+  border-radius: 120px;
+  line-height: 25px;
+  opacity: 1; }
+
+.popup .mfp-close:active {
+  top: -16px; }
+
+.mfp-close-btn-in .mfp-close {
+  color: #0b98cd; }
+
+.record {
+  max-width: 821px; }
+  .record img {
+    bottom: -233px;
+    left: 0; }
+  .record .right__forma {
+    padding-top: 0;
+    background-color: transparent; }
+    .record .right__forma form input {
+      max-width: inherit; }
+    .record .right__forma form h2 {
+      color: #0992c9; }
+    .record .right__forma form br {
+      display: block; }
+    .record .right__forma form .buttons a {
+      font-family: RobotoLight; }
+    .record .right__forma form .upload a {
+      font-family: RobotoLight; }
+    .record .right__forma form tt {
+      float: none !important;
+      display: block; }

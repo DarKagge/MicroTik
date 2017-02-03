@@ -27,6 +27,9 @@ a,button,input,textarea{
 }
 a{
 	color: #757575;
+    &:focus{
+      text-decoration: none;
+    }
 }
 b{
 	font-family:RobotoBold;
@@ -387,7 +390,7 @@ header{
 
 
 
-.call-back__popup{
+.popup{
 	max-width: 762px;
 	position: relative;
 	margin:0 auto;
@@ -422,13 +425,72 @@ header{
 			font-size:20.83px;
 		}
 	}
+    img{
+      position: relative;
+    }
 	.buttons{
 		float: none;
 		margin-left: 0;
 		margin-top: 20px;
 		margin-bottom: 20px;
 	}
-	img{
-		margin-top: -110px;
-	}
+}
+.call-back{
+  img{
+    margin-top: -110px;
+  }
+}
+
+.popup .mfp-close{
+  width: 32px;
+  height: 32px;
+  background-color: #fff !important;
+  right: -16px;
+  top: -16px;
+  border-radius: 120px;
+  line-height: 25px;
+  opacity: 1;
+}
+.popup .mfp-close:active{
+  top: -16px;
+}
+.mfp-close-btn-in .mfp-close{
+  color: #0b98cd;
+}
+
+.record{
+  max-width: 821px;
+  img{
+    bottom: -233px;
+    left: 0;
+  }
+  .right__forma{
+    padding-top: 0;
+    background-color: transparent;
+    form{
+      input{
+        max-width: inherit;
+      }
+      h2{
+        color: #0992c9;
+      }
+      br{
+        display: block;
+      }
+      .buttons{
+        a{
+          font-family:RobotoLight;
+        }
+      }
+      .upload{
+        a{
+          font-family:RobotoLight;
+        }
+      }
+      tt{
+        float: none !important;
+        display: block;
+      }
+    }
+  }
 }

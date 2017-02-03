@@ -215,7 +215,7 @@
 							</div>
 						</div>
 						<div class="buttons">
-							<a href="#">Записаться на курс</a>
+							<a href="#popup1" class="open-popup-link">Записаться на курс</a>
 						</div>
 					</div>
 				</div>
@@ -1293,7 +1293,7 @@
 
 
 
-    <div class="call-back__popup mfp-hide" id="popup">
+    <div class="popup call-back mfp-hide" id="popup">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-sm-7">
@@ -1311,6 +1311,37 @@
                 <div class="col-sm-5">
                     <div class="popup__img">
                         <img src="img/callme.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="popup record mfp-hide" id="popup1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="popup__img">
+                        <img src="img/callme1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="right__forma">
+                        <form>
+                            <h2>Запишись на курсы<br>
+                                прямо сейчас!</h2>
+                            <p>И в ближайшее время мы свяжемся с Вами</p>
+                            <input type="text" name="name" placeholder="Имя" required>
+                            <input type="text" name="email" placeholder="E-mail" required>
+                            <input type="text" name="phone" placeholder="Телефон" required>
+                            <div class="upload">
+                                <a href="#" name="upload" >Прикрепить реквизиты</a>
+                                <input type="file">
+                            </div>
+                            <div class="buttons">
+                                <a href="#" name="send">Отправить</a>
+                            </div>
+                            <tt class="pull-right">Запрос коммерческого предложения</tt>
+                        </form>
                     </div>
                 </div>
             </div>
