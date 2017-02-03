@@ -1313,6 +1313,20 @@ body .foot-email{
 .vox{
     display: none;
 }
+
+
+
+
+
+
+.title-internal{
+  border-bottom: 1px solid #dddddd;
+  h2{
+    font-size:41.67px;
+    color: #626262;
+    padding-bottom: 25px;
+  }
+}
 //ALWAYS END
 @import "media.scss";
 @import "sketches.scss";

@@ -423,15 +423,37 @@
   .left-section_webinar{
     padding-left: 20px;
     h2{
-      padding-left: 22px;
+      padding-left: 0px;
+      font-size:15.9px;
     }
     p{
-      padding-left: 22px;
+      padding-left: 0px;
     }
   }
   .right-section_webinar{
     margin-left: 0;
+    padding-left: 20px;
   }
+  .bottom-data{
+    margin-right: 0;
+    position: relative;
+    p{
+      display: block;
+      margin-top: 5px;
+    }
+    .buttons{
+      margin-right: 10px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      float: none !important;
+      display: inline-block;
+    }
+  }
+  .bottom-data p{
+    padding-bottom: 5px;
+  }
+
   .webinar li{
     margin-left: 2px !important;
   }
@@ -790,6 +812,9 @@
       }
     }
   }
+  .webinar li{
+    margin-right: 4px !important;
+  }
 }
 @media only screen and (max-width : 799px){
   .experts-side{
@@ -947,8 +972,46 @@
     }
   }
 
+  .left-section_webinar{
+    h2{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+  }
+  .left-section_webinar{
+    padding-left: 0;
 
+  }
+  .right-section_webinar{
+    padding-left: 0;
+    text-align: center;
+    border-radius: 8px;
+    &:after{
+      display: none;
+    }
+  }
+  .bottom-data p:after{
+    left: 50%;
+    margin-left: -98px;
+  }
+  .webinar-slider ul{
+    height: auto !important;
+  }
+  .webinar li{
+    margin-right: 10px !important;
+  }
+  .bottom-data{
+    .buttons{
+      position: relative;
+      left: auto;
+      top: auto;
+      margin-right: 0;
+      margin-bottom: 20px;
 
+    }
+  }
   .right__forma form tt{
     display: block;
     float: none !important;
@@ -998,6 +1061,7 @@
     float: none;
     margin: 15px auto;
   }
+
 }
 @media only screen and (max-width : 760px){
   .practice_theory{
@@ -1169,6 +1233,9 @@
       font-size:4vw;
     }
   }
+  .text-webinar h2{
+    font-size:4vw;
+  }
 }
 @media only screen and (max-width : 490px){
   .forms form {
@@ -1244,6 +1311,9 @@
     a{
       margin-left: 0;
     }
+  }
+  .text-webinar h2{
+    font-size:4.5vw;
   }
 }
 @media only screen and (max-width : 348px){

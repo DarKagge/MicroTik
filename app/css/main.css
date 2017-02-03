@@ -1201,6 +1201,13 @@ body .foot-email {
 .vox {
   display: none; }
 
+.title-internal {
+  border-bottom: 1px solid #dddddd; }
+  .title-internal h2 {
+    font-size: 41.67px;
+    color: #626262;
+    padding-bottom: 25px; }
+
 @media only screen and (max-width: 1230px) {
   .in-preview {
     margin: 0;
@@ -1508,11 +1515,28 @@ body .foot-email {
   .left-section_webinar {
     padding-left: 20px; }
     .left-section_webinar h2 {
-      padding-left: 22px; }
+      padding-left: 0px;
+      font-size: 15.9px; }
     .left-section_webinar p {
-      padding-left: 22px; }
+      padding-left: 0px; }
   .right-section_webinar {
-    margin-left: 0; }
+    margin-left: 0;
+    padding-left: 20px; }
+  .bottom-data {
+    margin-right: 0;
+    position: relative; }
+    .bottom-data p {
+      display: block;
+      margin-top: 5px; }
+    .bottom-data .buttons {
+      margin-right: 10px;
+      position: absolute;
+      right: 0;
+      top: 0;
+      float: none !important;
+      display: inline-block; }
+  .bottom-data p {
+    padding-bottom: 5px; }
   .webinar li {
     margin-left: 2px !important; }
   .experts-side {
@@ -1759,7 +1783,9 @@ body .foot-email {
     .forms form button {
       width: 46.5%;
       margin: 10px 5px;
-      padding: 16px; } }
+      padding: 16px; }
+  .webinar li {
+    margin-right: 4px !important; } }
 
 @media only screen and (max-width: 799px) {
   .experts-side {
@@ -1871,6 +1897,32 @@ body .foot-email {
     margin: 5px auto; }
   .bottom-forma div[class^=col-xs-12] {
     text-align: center; }
+  .left-section_webinar h2 {
+    text-align: center; }
+  .left-section_webinar p {
+    text-align: center; }
+  .left-section_webinar {
+    padding-left: 0; }
+  .right-section_webinar {
+    padding-left: 0;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    border-radius: 8px; }
+    .right-section_webinar:after {
+      display: none; }
+  .bottom-data p:after {
+    left: 50%;
+    margin-left: -98px; }
+  .webinar-slider ul {
+    height: auto !important; }
+  .webinar li {
+    margin-right: 10px !important; }
+  .bottom-data .buttons {
+    position: relative;
+    left: auto;
+    top: auto;
+    margin-right: 0;
+    margin-bottom: 20px; }
   .right__forma form tt {
     display: block;
     float: none !important; }
@@ -2002,6 +2054,8 @@ body .foot-email {
   .all-footer__menu a {
     font-size: 4vw; }
   .all-footer__menu tt {
+    font-size: 4vw; }
+  .text-webinar h2 {
     font-size: 4vw; } }
 
 @media only screen and (max-width: 490px) {
@@ -2049,7 +2103,9 @@ body .foot-email {
     float: none !important;
     display: inline-block; }
     .scroll-up a {
-      margin-left: 0; } }
+      margin-left: 0; }
+  .text-webinar h2 {
+    font-size: 4.5vw; } }
 
 @media only screen and (max-width: 348px) {
   .phones-text {
