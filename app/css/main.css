@@ -1487,6 +1487,8 @@ body .foot-email {
     margin-left: -90px; } }
 
 @media only screen and (max-width: 1024px) {
+  .button-search input {
+    bottom: -73px; }
   .phones {
     margin-left: -100px; }
   .logo {
