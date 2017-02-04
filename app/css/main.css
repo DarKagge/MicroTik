@@ -1201,9 +1201,13 @@ body .foot-email {
 .vox {
   display: none; }
 
+.left-activi__box {
+  text-align: center; }
+
 .title-internal {
   border-bottom: 1px solid #dddddd;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  text-align: left; }
   .title-internal h2 {
     font-size: 41.67px;
     padding-top: 45px;
@@ -1234,10 +1238,11 @@ body .foot-email {
     text-align: left;
     font-size: 25px;
     color: #626262;
-    padding-bottom: 25px; }
+    padding-bottom: 25px;
+    line-height: 30px; }
   .right-activities span {
     text-align: left;
-    margin: 25px 0 22px 0;
+    margin: 10px 0 22px 0;
     display: block;
     font-family: RobotoBold;
     font-size: 16.67px; }
@@ -1313,6 +1318,25 @@ body .foot-email {
   .black-time span {
     font-family: RobotoBold;
     font-size: 16.67px; }
+
+.blue-buttons {
+  display: inline-block;
+  margin: 50px auto; }
+  .blue-buttons a {
+    background-color: #0b98cd;
+    font-size: 14.58px;
+    padding: 11px 25px;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    .blue-buttons a:hover {
+      text-decoration: none;
+      background-color: #f26c4f; }
+
+.right-sidebar {
+  background-color: #f8f8f9; }
 
 @media only screen and (max-width: 1230px) {
   .in-preview {

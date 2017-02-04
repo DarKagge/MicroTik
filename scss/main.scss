@@ -1319,9 +1319,13 @@ body .foot-email{
 
 
 //webinar//
+.left-activi__box{
+  text-align: center;
+}
 .title-internal{
   border-bottom: 1px solid #dddddd;
   margin-bottom: 30px;
+  text-align: left;
   h2{
     font-size:41.67px;
     padding-top: 45px;
@@ -1359,10 +1363,11 @@ body .foot-email{
     font-size: 25px;
     color: #626262;
     padding-bottom: 25px;
+    line-height: 30px;
   }
   span{
     text-align: left;
-    margin: 25px 0 22px 0;
+    margin: 10px 0 22px 0;
     display: block;
     font-family:RobotoBold;
     font-size: 16.67px;
@@ -1449,7 +1454,26 @@ body .foot-email{
     font-size: 16.67px;
   }
 }
-
+.blue-buttons{
+  display: inline-block;
+  margin: 50px auto;
+  a{
+    background-color: #0b98cd;
+    font-size:14.58px;
+    padding: 11px 25px;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    border-radius: 5px;
+    &:hover{
+      text-decoration: none;
+      background-color: #f26c4f;
+    }
+  }
+}
+.right-sidebar{
+  background-color: #f8f8f9;
+}
 //ALWAYS END
 @import "media.scss";
 @import "sketches.scss";
