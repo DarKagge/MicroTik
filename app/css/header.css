@@ -72,7 +72,7 @@ header {
 
 .phones_buttons {
   float: left;
-  margin-left: 43px;
+  margin-left: 52px;
   margin-top: 15px; }
   .phones_buttons a {
     font-size: 14.58px;
@@ -83,7 +83,8 @@ header {
     position: relative;
     border-bottom: 3px solid #993300; }
     .phones_buttons a:hover {
-      text-decoration: none; }
+      text-decoration: none;
+      border-bottom: 3px solid #08749d; }
     .phones_buttons a:after {
       position: absolute;
       left: 11px;
@@ -115,6 +116,8 @@ header {
 .top-menu {
   border-top: 3px solid #c3c1c2;
   border-bottom: 1px solid #cccccc; }
+  .top-menu .inner:first-child {
+    background-color: #fff; }
 
 .menu ul {
   margin-top: -3px; }
@@ -154,10 +157,16 @@ header {
     background-image: url("../img/search.png");
     background-repeat: no-repeat;
     background-position: center; }
-  .button-search input {
-    position: absolute;
-    right: -4px;
-    bottom: -84px;
+
+.button-search-container {
+  position: absolute;
+  right: 21px;
+  top: -62px;
+  -webkit-transition: .5s all;
+  transition: .5s all; }
+  .button-search-container.active {
+    top: 0; }
+  .button-search-container input {
     padding: 17px 25px;
     font-size: 16.67px;
     font-family: RobotoLightitalic;
@@ -165,22 +174,31 @@ header {
     border: 1px solid #cccccc;
     min-width: 503px;
     z-index: 69; }
-    .button-search input::-webkit-input-placeholder {
+    .button-search-container input::-webkit-input-placeholder {
       color: #a9a9a9;
       font-family: RobotoLightitalic;
       font-size: 16.67px; }
-    .button-search input::-moz-placeholder {
+    .button-search-container input::-moz-placeholder {
       color: #a9a9a9;
       font-family: RobotoLightitalic;
       font-size: 16.67px; }
-    .button-search input:-moz-placeholder {
+    .button-search-container input:-moz-placeholder {
       color: #a9a9a9;
       font-family: RobotoLightitalic;
       font-size: 16.67px; }
-    .button-search input:-ms-input-placeholder {
+    .button-search-container input:-ms-input-placeholder {
       color: #a9a9a9;
       font-family: RobotoLightitalic;
       font-size: 16.67px; }
+
+.btn-search-close {
+  position: absolute;
+  right: 24px;
+  top: 25px;
+  background-image: url("../img/close.png");
+  background-repeat: no-repeat;
+  width: 11px;
+  height: 11px; }
 
 .full-banner {
   background-image: url("../img/banner-bg.png");

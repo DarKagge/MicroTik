@@ -202,6 +202,26 @@ $(function() {
 	});
 
 
+    var tab = $(".inputs-change a.active-trainer").attr("href");
+	console.log(tab);
+    $(tab).show();
+    $(".inputs-change a").on("click",function(e){
+    	$(".active-trainer").removeClass("active-trainer");
+        $(this).addClass("active-trainer");
+        e.preventDefault();
+        tab = $(this).attr("href");
+        $(tab).show().siblings(".tab").hide();
+    });
+
+
+	$(".btn-search-open").on("click",function(){
+		$(".button-search-container").toggleClass("active");
+		$(this).toggleClass("active");
+	});
+	$(".btn-search-close").on("click",function(){
+		$(".button-search-container").removeClass("active");
+		$(this).removeClass("active");
+	});
 
 
 

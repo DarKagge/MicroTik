@@ -566,7 +566,7 @@ body .time{
             border: none;
             text-decoration: none;
             transition: .5s all;
-            padding: 9px 20px;
+            padding: 7px 20px;
             margin-right: 7px;
         }
     }
@@ -613,6 +613,9 @@ body .time{
     span{
         display: block;
     }
+}
+.tab{
+    display: none;
 }
 .active-trainer{
     background-color: #0b98cd;
@@ -1473,6 +1476,22 @@ body .foot-email{
 }
 .right-sidebar{
   background-color: #f8f8f9;
+}
+
+.side-bar__info{
+  padding-top: 45px;
+  a{
+    padding: 10px 10px;
+    border-top: 1px solid #bababa;
+    display: block;
+    font-size: 18.75px;
+    margin: 0 10px;
+    position: relative;
+    &:hover{
+      background-color: #efeff0;
+      color: #333333;
+    }
+  }
 }
 //ALWAYS END
 @import "media.scss";
