@@ -139,7 +139,11 @@
 	}
 }
 
-
+@media only screen and (max-width : 1187px){
+  .all-courses{
+    margin-right: -50px;
+  }
+}
 @media only screen and (max-width : 1179px) {
 	.phones-text{
 		padding-left: 0;
@@ -169,6 +173,13 @@
 	.phones_buttons{
 		margin-left: 30px;
 	}
+}
+@media only screen and (max-width : 1150px){
+  .courses .right-sidebar{
+    position: absolute;
+    right: 0%;
+    width: 195px;
+  }
 }
 @media only screen and (max-width : 1147px){
   .all-items{
@@ -211,6 +222,59 @@
 		font-size:1.4vw;
 	}
 }
+@media only screen and (max-width : 1121px){
+  //course//
+  .all-courses{
+    margin-right: -80px;
+  }
+}
+@media only screen and (max-width : 1100px){
+  .side-bar__info{
+    a{
+      padding: 10px 30px;
+      &:after{
+        top: 17px;
+        left: 10px;
+        right: inherit;
+        background-image: url("../img/shape-bar2.png");
+      }
+    }
+  }
+  .in-second__bar{
+    span{
+      margin-left: 10px;
+    }
+    p{
+      padding-left: 10px;
+    }
+    a{
+      margin-left: 10px;
+      padding: 0;
+    }
+  }
+  .right-sidebar{
+    position: absolute;
+    right: 0%;
+    width: 195px;
+  }
+  .right-sidebar.active{
+    position: absolute;
+    right: 0px;
+    width: 230px;
+  }
+  .side-bar__info a:after{
+    background-image: url("../img/shape-bar2.png");
+    width: 7px;
+    height: 13px;
+  }
+  .side-bar__info li.active a:after{
+    background-image: url("../img/shape-bar.png");
+    width: 7px;
+    height: 13px;
+    top:18px;
+  }
+
+}
 @media only screen and (max-width : 1097px) {
 	.phones_buttons{
 		margin-left: 10px;
@@ -221,6 +285,31 @@
 		margin-left: 5px;
 	}
 }
+@media only screen and (max-width : 1081px){
+  //course//
+  .all-courses{
+    margin-right: -125px;
+  }
+  .courses .right-sidebar{
+    width: 140px;
+  }
+  .courses .right-sidebar.active{
+    position: absolute;
+    right: 0px;
+    width: 230px;
+  }
+  .courses .side-bar__info a:after{
+    background-image: url("../img/shape-bar2.png");
+    width: 7px;
+    height: 13px;
+  }
+  .courses .side-bar__info li.active a:after{
+    background-image: url("../img/shape-bar.png");
+    width: 7px;
+    height: 13px;
+    top:18px;
+  }
+}
 @media only screen and (max-width : 1078px) {
 	.phones_buttons{
 		margin-left: 20px;
@@ -229,6 +318,7 @@
 		margin-right: 10px;
 	}
 }
+
 @media only screen and (max-width : 1048px){
 	.phones{
 		margin-left: -90px;
@@ -369,6 +459,66 @@
   .in-preview{
     margin: -5px;
   }
+  .all-courses{
+    margin-right: 0;
+  }
+  .courses-item{
+    max-width: inherit;
+    width: 100%;
+    float: none;
+  }
+  .courses-item {
+    min-height: 450px;
+    ul{
+
+    }
+    li{
+      float: left;
+      max-width: inherit;
+      position: relative;
+      &:after{
+        position: absolute;
+        width: 20px;
+        height: 5px;
+        background-color: #d6dfe2;
+        content: '';
+        right: 0;
+        top: 25px;
+      }
+      &:nth-child(4n){
+        a{
+          &:before{
+            display: block;
+          }
+        }
+        &:after{
+          display: none;
+        }
+      }
+      &:nth-child(3):after{display: none}
+      &:first-child{
+        a{
+          &:before{
+            display: block;
+          }
+        }
+      }
+      &:last-of-type:after{display: none}
+    }
+    a{
+      margin-right: 20px;
+      &:before{
+        display: none;
+      }
+    }
+    p{
+      padding-right: 130px;
+      br{
+        display: none;
+
+      }
+    }
+  }
 }
 @media only screen and (max-width : 1006px){
   .phones{
@@ -497,6 +647,72 @@
       text-align: right;
     }
   }
+  //webinar///
+  .right-sidebar{
+    position: absolute;
+    right: -23%;
+    width: 170px;
+  }
+  .right-sidebar.active{
+    position: absolute;
+    right: 0px;
+    width: 230px;
+  }
+  .side-bar__info a:after{
+    background-image: url("../img/shape-bar2.png");
+    width: 7px;
+    height: 13px;
+  }
+  .side-bar__info li.active a:after{
+    background-image: url("../img/shape-bar.png");
+    width: 7px;
+    height: 13px;
+    top:18px;
+  }
+  .record-video{
+    a{
+      margin-top: 30px;
+    }
+  }
+  .center-rec_item{
+    width: 83%;
+  }
+  //contact//
+  .left-contact{
+    padding-left: 60px;
+    li{
+      display: inline-block;
+      vertical-align: top;
+      width: 250px;
+      margin: 15px 125px 15px 0;
+      &:nth-child(2){
+        margin-right: 0;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+      span{
+        display: inline-block;
+      }
+      br{
+        display: none;
+      }
+    }
+  }
+  //course//
+  .courses-item{
+    li{
+      &:nth-child(4n){
+        a{
+          &:before{
+            display: none;
+          }
+        }
+      }
+      &:nth-child(3):after{display: block}
+    }
+
+  }
 }
 @media only screen and (max-width : 986px){
   .listener-item{
@@ -564,6 +780,18 @@
     margin: 25px 10px;
     p{
       font-size:1.9vw;
+    }
+  }
+}
+@media only screen and (max-width : 939px){
+  .courses-item{
+    li{
+      &:nth-child(3n){
+        &:after{display: none}
+      }
+      &:nth-child(4n){
+        a{&:before{display: block}}
+      }
     }
   }
 }
@@ -683,6 +911,14 @@
     margin: 25px 10px;
   }
 }
+@media only screen and (max-width : 862px){
+  //contact//
+  .left-contact{
+    li{
+      margin-right: 100px;
+    }
+  }
+}
 @media only screen and (max-width : 858px){
   .listener-item{
     max-width: 180px;
@@ -730,6 +966,25 @@
   .in-preview{
     margin: 0;
   }
+  //contact//
+  .left-contact{
+    li{
+      margin-right: 70px;
+    }
+  }
+}
+@media only screen and (max-width : 831px){
+  .tabs-rec_menu{
+    margin: 20px 0;
+    li{
+      margin: 5px 0;
+
+    }
+  }
+  .center-rec_item p{
+    padding-top: 30px;
+  }
+
 }
 @media only screen and (max-width : 829px){
   .experts-side{
@@ -839,6 +1094,14 @@
         font-size:2.5vw;
         text-align: left;
       }
+    }
+  }
+}
+@media only screen and (max-width : 796px){
+  //contact//
+  .left-contact{
+    li{
+      margin-right: 50px;
     }
   }
 }
@@ -1073,6 +1336,112 @@
       width: 75%;
     }
   }
+  //webinar//
+  .right-activities {
+    h2{
+      text-align: center;
+    }
+    p{
+      text-align: center;
+    }
+    span{
+      text-align: center;
+    }
+  }
+  .gray-activi__text{
+    padding: 18px 9px 21px 9px;
+  }
+  body .activities .right-sidebar{
+    width: auto;
+    right: 0;
+    position: relative;
+  }
+  body .activities .right-sidebar.active{
+    position: relative;
+    width: auto;
+  }
+  body .activities .side-bar__info {
+    a{
+      text-align: center;
+    }
+  }
+  body .activities .side-bar__info li.active .in-second__bar{
+    text-align: center;
+    h3{
+      margin-left: 0;
+      &:after{
+        left: 50%;
+        margin-left: -145px;
+      }
+    }
+    span{
+      margin: 0;
+    }
+    p{
+      padding: 0;
+    }
+    a{
+      margin: 0;
+    }
+  }
+  body .activities .side-bar__info li.active a:after{
+    background-image: url("../img/shape-bar1.png");
+    width: 13px;
+    height: 7px;
+  }
+  .records-items{
+    &:hover{
+      border: none;
+    }
+  }
+
+  .left-top_r{
+    float: none;
+    width: 100%;
+  }
+  .right-top_r{
+    display: none;
+  }
+  .left-rec__item{
+    float: none;
+    width:100%;
+  }
+  .center-rec_item{
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0 0 0;
+  }
+  .tabs-rec_menu{
+    display: inline-block;
+    li{
+      float: none;
+      display: inline-block;
+    }
+    a{
+      margin: 0 5px;
+    }
+  }
+  //contact//
+  .left-contact{
+    padding-left: 0;
+    ul{
+      text-align: center;
+    }
+    li{
+      display: block;
+      width: 100%;
+      h2{
+        margin-top:80px;
+      }
+      h2:after{
+        left: 50%;
+        top: -50px;
+        margin-left: -25px;
+      }
+    }
+
+  }
 }
 @media only screen and (max-width : 760px){
   .practice_theory{
@@ -1182,6 +1551,27 @@
     }
   }
 }
+@media only screen and (max-width : 609px){
+  //course//
+  .courses-item li:nth-child(4n) a:before{display: none}
+  .courses-item {
+    li{
+      &:nth-child(2n){
+        &:after{display: none}
+      }
+      &:nth-child(3n){
+        a{
+          &:before{
+            display: block;
+          }
+        }
+        &:after{
+          display: block;
+        }
+      }
+    }
+  }
+}
 @media only screen and (max-width : 560px){
   .full-banner{
     background-position: 150px 130px;
@@ -1189,6 +1579,11 @@
   .safeguard{
     background-size: cover;
     padding-bottom: 25px;
+  }
+}
+@media only screen and (max-width : 540px){
+  .button-search-container input{
+    min-width: 450px;
   }
 }
 @media only screen and (max-width : 526px){
@@ -1247,6 +1642,12 @@
   .text-webinar h2{
     font-size:4vw;
   }
+
+}
+@media only screen and (max-width : 495px){
+  .button-search-container input{
+    min-width: 400px;
+  }
 }
 @media only screen and (max-width : 490px){
   .forms form {
@@ -1277,6 +1678,22 @@
       font-size:5.8vw;
     }
   }
+  .button-search-container input{
+    min-width: 355px;
+  }
+}
+@media only screen and (max-width : 436px){
+  //course//
+  .courses-item{
+    float: left;
+    a{
+      &:before{display: block}
+    }
+    li:nth-child(4n)a:before{display: block}
+  }
+  .courses-item li:nth-child(4n) a:before{display: block}
+  .courses-item li:after{display: none}
+  .courses-item li:nth-child(3n):after{display: none}
 }
 @media only screen and (max-width : 420px){
   .full-banner{
@@ -1326,6 +1743,24 @@
   .text-webinar h2{
     font-size:4.5vw;
   }
+  .button-search-container input{
+    min-width: 330px;
+  }
+}
+@media only screen and (max-width : 370px){
+  .button-search-container input{
+    min-width: 300px;
+  }
+}
+@media only screen and (max-width : 355px){
+  .button-search-container input{
+    min-width: 280px;
+  }
+}
+@media only screen and (max-width : 340px){
+  .button-search-container{
+    right: 15px;
+  }
 }
 @media only screen and (max-width : 348px){
   .phones-text{
@@ -1341,4 +1776,14 @@
     }
   }
 
+}
+@media only screen and (max-width : 330px){
+  .button-search-container{
+    right: 10px;
+  }
+}
+@media only screen and (max-width : 320px){
+  .button-search-container{
+    right: 5px;
+  }
 }

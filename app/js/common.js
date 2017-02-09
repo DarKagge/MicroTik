@@ -114,58 +114,60 @@ $(function() {
 	})
 });
 
-
-        var autoplaySlider = $('#webinar').lightSlider({
-            item:1,
-            auto:true,
-            loop:true,
-            pauseOnHover: true,
-            onBeforeSlide: function (el) {
-                $('#current').text(el.getCurrentSlideCount());
-            }
-        });
-        $('#total').text(autoplaySlider.getTotalSlideCount());
-
-
-
-	var Slider = $('#comment').lightSlider({
-		item:1,
-		loop:true,
-		pauseOnHover: true,
-		onBeforeSlide: function (el) {
-			$('#current').text(el.getCurrentSlideCount());
-		}
-	});
-	$('#total').text(autoplaySlider.getTotalSlideCount());
-
-
-    var partners = $('#partners').lightSlider({
-        item:5,
-        loop:true,
-        pager:false,
-        pauseOnHover: true,
-		responsive : [
-			{
-				breakpoint:1024,
-				settings: {
-					item:3,
-					slideMove:1,
-					slideMargin:6,
-				}
-			},
-			{
-				breakpoint:991,
-				settings: {
-					item:3,
-					slideMove:1
-				}
+	if($('#webinar').length){
+		var autoplaySlider = $('#webinar').lightSlider({
+			item:1,
+			auto:true,
+			loop:true,
+			pauseOnHover: true,
+			onBeforeSlide: function (el) {
+				$('#current').text(el.getCurrentSlideCount());
 			}
-		],
-        onBeforeSlide: function (el) {
-            $('#current').text(el.getCurrentSlideCount());
-        }
-    });
-    $('#total').text(autoplaySlider.getTotalSlideCount());
+		});
+	}
+
+	if($('#comment').length){
+		var Slider = $('#comment').lightSlider({
+			item:1,
+			loop:true,
+			pauseOnHover: true,
+			onBeforeSlide: function (el) {
+				$('#current').text(el.getCurrentSlideCount());
+			}
+		});
+	}
+
+	if($('#partners').length){
+		var partners = $('#partners').lightSlider({
+			item:5,
+			loop:true,
+			pager:false,
+			pauseOnHover: true,
+			responsive : [
+				{
+					breakpoint:1024,
+					settings: {
+						item:3,
+						slideMove:1,
+						slideMargin:6,
+					}
+				},
+				{
+					breakpoint:991,
+					settings: {
+						item:3,
+						slideMove:1
+					}
+				}
+			],
+			onBeforeSlide: function (el) {
+				$('#current').text(el.getCurrentSlideCount());
+			}
+		});
+	}
+
+
+
 
 
 
@@ -231,7 +233,18 @@ $(function() {
 		midClick: true // Allow opening popup on middle mouse click. Always set it to true if you don't provide alternative source in href.
 	});
 
+	$(".side-bar__info > ul > li > a").on("click",function(e){
+		e.preventDefault();
 
+		if($(this).parent().hasClass("active")){
+			$(this).parent().removeClass("active");
+			$(".right-sidebar").removeClass("active");
+		}else{
+			$(this).parent().addClass("active").siblings("li").removeClass("active");
+			$(".right-sidebar").addClass("active");
+		}
+
+	});
 
 
 
