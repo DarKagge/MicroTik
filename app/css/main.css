@@ -1806,9 +1806,16 @@ body .foot-email {
     font-size: 20.83px;
     line-height: 25px; }
 
-.in-trainer .foto-trainer img {
-  width: 100%;
-  margin-right: 0; }
+.in-trainer .foto-trainer {
+  min-height: 495px;
+  position: relative; }
+  .in-trainer .foto-trainer img {
+    bottom: 0;
+    left: 0;
+    margin-left: 0;
+    position: absolute;
+    width: 100.4%;
+    margin-right: 0; }
 
 .in-trainer .trainer-information {
   bottom: 0;
@@ -1903,7 +1910,8 @@ body .foot-email {
     height: 34px; }
 
 .left-activi__box .change-blocks {
-  margin-top: 25px; }
+  margin-top: 25px;
+  margin-left: 0; }
   .left-activi__box .change-blocks a {
     width: 140px;
     margin: 0 10px; }
@@ -2076,6 +2084,10 @@ body .foot-email {
   .all-courses {
     margin-right: -80px; } }
 
+@media only screen and (max-width: 1106px) {
+  .left-activi__box .change-blocks a {
+    margin: 0 5px; } }
+
 @media only screen and (max-width: 1100px) {
   .side-bar__info a {
     padding: 10px 30px; }
@@ -2142,9 +2154,17 @@ body .foot-email {
   .menu a {
     margin-right: 10px; } }
 
+@media only screen and (max-width: 1051px) {
+  .course-kinds {
+    margin-left: -25px; } }
+
 @media only screen and (max-width: 1048px) {
   .phones {
     margin-left: -90px; } }
+
+@media only screen and (max-width: 1039px) {
+  .left-activi__box .change-blocks a {
+    margin: 0; } }
 
 @media only screen and (max-width: 1024px) {
   .button-search input {
@@ -2279,6 +2299,14 @@ body .foot-email {
       .courses-item p br {
         display: none; } }
 
+@media only screen and (max-width: 1018px) {
+  .course-kinds {
+    margin-left: -50px; } }
+
+@media only screen and (max-width: 1009px) {
+  .trainer-info__right b {
+    min-width: 140px; } }
+
 @media only screen and (max-width: 1006px) {
   .phones {
     margin-left: -130px; }
@@ -2370,8 +2398,7 @@ body .foot-email {
     text-align: right; }
   .right-sidebar {
     position: absolute;
-    right: -23%;
-    width: 170px; }
+    width: 130px; }
   .right-sidebar.active {
     position: absolute;
     right: 0px;
@@ -2407,7 +2434,38 @@ body .foot-email {
   .courses-item li:nth-child(4n) a:before {
     display: none; }
   .courses-item li:nth-child(3):after {
-    display: block; } }
+    display: block; }
+  .course-kinds {
+    margin-left: 0px; }
+  .in-trainer .foto-trainer img {
+    position: relative; }
+  .trainer-info__right li {
+    padding-top: 8px; }
+  .trainer-info__right li * {
+    vertical-align: top; }
+  .in-trainer .trainer-information {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    height: 126px;
+    padding-top: 35px; }
+    .in-trainer .trainer-information h2 {
+      padding: 0; }
+  .trainer-info__right span {
+    padding: 0;
+    margin-bottom: 0; }
+  .trainer-info__right br {
+    display: none; }
+  .trainer-info__right b {
+    display: inline-block;
+    padding-left: 0; }
+  .trainer-info__right div {
+    max-width: 238px; }
+  .trainer-info__right p {
+    display: block;
+    padding-left: 0px;
+    margin-top: -4px; } }
 
 @media only screen and (max-width: 986px) {
   .listener-item {
@@ -2452,6 +2510,10 @@ body .foot-email {
     right: -37px; }
   .specialists li:nth-child(3):after {
     right: -37px; } }
+
+@media only screen and (max-width: 950px) {
+  .course-kinds {
+    margin-left: -50px; } }
 
 @media only screen and (max-width: 946px) {
   .listener-item {
@@ -2535,6 +2597,21 @@ body .foot-email {
   .practice_theory li:after {
     right: -110px; } }
 
+@media only screen and (max-width: 886px) {
+  .course-kinds {
+    margin-left: -60px; } }
+
+@media only screen and (max-width: 875px) {
+  .course-kinds {
+    margin-left: -25px; }
+    .course-kinds li {
+      margin: 0 40px; }
+      .course-kinds li:nth-child(2n) a:before {
+        min-width: 469px;
+        left: -106%; }
+  .left-activi__box .change-blocks a {
+    width: 130px; } }
+
 @media only screen and (max-width: 874px) {
   .listener-item {
     margin: 25px 2px; }
@@ -2566,6 +2643,10 @@ body .foot-email {
 @media only screen and (max-width: 854px) {
   .experts-side {
     margin: 40px 0; } }
+
+@media only screen and (max-width: 845px) {
+  .course-kinds {
+    margin-left: -50px; } }
 
 @media only screen and (max-width: 842px) {
   .listener-item {
@@ -2614,11 +2695,18 @@ body .foot-email {
   .specialists li {
     margin: 40px 0px; } }
 
+@media only screen and (max-width: 815px) {
+  .left-activi__box .change-blocks a {
+    width: 120px; } }
+
 @media only screen and (max-width: 814px) {
   .info-block {
     padding-left: 25px; }
   .foto-trainer img {
-    margin-left: -110px; } }
+    margin-left: -110px; }
+  .course-kinds {
+    margin-left: -50px;
+    margin-right: -50px; } }
 
 @media only screen and (max-width: 812px) {
   .date-item {
@@ -2899,13 +2987,47 @@ body .foot-email {
       .left-contact li h2:after {
         left: 50%;
         top: -50px;
-        margin-left: -25px; } }
+        margin-left: -25px; }
+  .course-kinds {
+    margin-right: 0;
+    margin-left: 0; }
+  .trainer-info__block .foto-trainer {
+    text-align: center; }
+    .trainer-info__block .foto-trainer img {
+      width: inherit;
+      position: relative; } }
 
 @media only screen and (max-width: 760px) {
   .practice_theory li:nth-child(2) {
     margin: 0 100px; }
   .practice_theory li:after {
     right: -90px; } }
+
+@media only screen and (max-width: 728px) {
+  .course-kinds a:after {
+    height: 42px;
+    bottom: -44px; }
+  .bottom-kinds {
+    margin-top: 0; }
+    .bottom-kinds li {
+      float: none;
+      display: inline-block; }
+    .bottom-kinds a:after {
+      top: 20px;
+      width: 45px;
+      height: 3px;
+      right: -46px;
+      left: inherit; }
+    .bottom-kinds li:nth-child(2n) a:before {
+      display: none; }
+    .bottom-kinds li:nth-child(2n) a:after {
+      left: -46px; }
+    .bottom-kinds li:last-child a:after {
+      height: 46px;
+      width: 3px;
+      left: 50%;
+      right: inherit;
+      top: -47px; } }
 
 @media only screen and (max-width: 720px) {
   .practice_theory li:nth-child(2) {
@@ -3014,7 +3136,22 @@ body .foot-email {
   .all-footer__menu tt {
     font-size: 4vw; }
   .text-webinar h2 {
-    font-size: 4vw; } }
+    font-size: 4vw; }
+  .title-internal h2 {
+    font-size: 9.9vw; }
+  .in-trainer .trainer-information {
+    left: 0; }
+  .trainer-info__block .foto-trainer img {
+    width: 100%; }
+  body .course-kinds a:after {
+    height: 23px !important;
+    left: 50% !important;
+    right: inherit;
+    top: inherit;
+    bottom: -25px;
+    width: 3px !important; }
+  .bottom-kinds li:last-child a:after {
+    display: none; } }
 
 @media only screen and (max-width: 495px) {
   .button-search-container input {
@@ -3038,6 +3175,18 @@ body .foot-email {
     font-size: 5.8vw; }
   .button-search-container input {
     min-width: 355px; } }
+
+@media only screen and (max-width: 441px) {
+  .trainer-info__right li {
+    text-align: center; }
+    .trainer-info__right li * {
+      display: block; }
+    .trainer-info__right li span {
+      display: inline-block;
+      width: inherit;
+      text-align: center; }
+  .trainer-info__right b {
+    padding: 0; } }
 
 @media only screen and (max-width: 436px) {
   .courses-item {

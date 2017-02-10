@@ -2007,8 +2007,14 @@ body .foot-email{
 
 //trainer///
 .in-trainer .foto-trainer{
+    min-height: 495px;
+    position: relative;
     img{
-        width: 100%;
+        bottom:0;
+        left: 0;
+        margin-left: 0;
+        position: absolute;
+        width: 100.4%;
         margin-right: 0;
     }
 }
@@ -2126,6 +2132,7 @@ body .foot-email{
 }
 .left-activi__box .change-blocks{
     margin-top: 25px;
+    margin-left: 0;
     a{
         width: 140px;
         margin: 0 10px;

@@ -228,6 +228,14 @@
     margin-right: -80px;
   }
 }
+@media only screen and (max-width : 1106px){
+  //trainer//
+  .left-activi__box .change-blocks{
+    a{
+      margin: 0 5px;
+    }
+  }
+}
 @media only screen and (max-width : 1100px){
   .side-bar__info{
     a{
@@ -318,11 +326,24 @@
 		margin-right: 10px;
 	}
 }
-
+@media only screen and (max-width : 1051px){
+  //trainer///
+  .course-kinds{
+    margin-left: -25px;
+  }
+}
 @media only screen and (max-width : 1048px){
 	.phones{
 		margin-left: -90px;
 	}
+}
+@media only screen and (max-width : 1039px){
+  //trainer//
+  .left-activi__box .change-blocks{
+    a{
+      margin: 0;
+    }
+  }
 }
 @media only screen and (max-width : 1024px) {
   .button-search input{
@@ -520,6 +541,18 @@
     }
   }
 }
+@media only screen and (max-width : 1018px){
+  //trainer///
+  .course-kinds{
+    margin-left: -50px;
+  }
+}
+@media only screen and (max-width : 1009px){
+  //trainer//
+  .trainer-info__right b{
+    min-width: 140px;
+  }
+}
 @media only screen and (max-width : 1006px){
   .phones{
     margin-left: -130px;
@@ -650,8 +683,7 @@
   //webinar///
   .right-sidebar{
     position: absolute;
-    right: -23%;
-    width: 170px;
+    width: 130px;
   }
   .right-sidebar.active{
     position: absolute;
@@ -713,6 +745,50 @@
     }
 
   }
+  //trainer///
+  .course-kinds{
+    margin-left: 0px;
+  }
+  .in-trainer .foto-trainer {
+    img{
+      position: relative;
+    }
+  }
+  .trainer-info__right li{padding-top: 8px}
+  .trainer-info__right li *{vertical-align: top}
+  .in-trainer .trainer-information{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    height: 126px;
+    padding-top: 35px;
+    h2{
+      padding: 0;
+    }
+  }
+  .trainer-info__right{
+    span{
+      padding: 0;
+      margin-bottom: 0;
+    }
+    br{
+      display: none;
+    }
+    b{
+      display: inline-block;
+      padding-left: 0;
+
+    }
+    div{
+      max-width: 238px;
+    }
+    p{
+      display: block;
+      padding-left: 0px;
+      margin-top: -4px;
+    }
+  }
 }
 @media only screen and (max-width : 986px){
   .listener-item{
@@ -773,6 +849,12 @@
   }
   .specialists li:nth-child(3):after{
     right: -37px;
+  }
+}
+@media only screen and (max-width : 950px){
+  //trainer//
+  .course-kinds{
+    margin-left: -50px;
   }
 }
 @media only screen and (max-width : 946px){
@@ -898,6 +980,33 @@
     right: -110px;
   }
 }
+@media only screen and (max-width : 886px){
+  //trainer//
+  .course-kinds{
+    margin-left: -60px;
+  }
+}
+@media only screen and (max-width : 875px){
+  //trainer//
+  .course-kinds{
+    margin-left: -25px;
+    li{
+      margin: 0 40px;
+      &:nth-child(2n){
+        a{
+          &:before{
+            min-width: 469px;
+            left: -106%;
+          }
+        }
+      }
+    }
+  }
+  .left-activi__box .change-blocks a{
+    width: 130px;
+  }
+
+}
 @media only screen and (max-width : 874px){
   .listener-item{
     margin: 25px 2px;
@@ -944,6 +1053,12 @@
 @media only screen and (max-width : 854px){
   .experts-side{
     margin: 40px 0;
+  }
+}
+@media only screen and (max-width : 845px){
+  //trainer//
+  .course-kinds{
+    margin-left: -50px;
   }
 }
 @media only screen and (max-width : 842px){
@@ -1018,12 +1133,23 @@
     }
   }
 }
+@media only screen and (max-width : 815px){
+  //trainer//
+  .left-activi__box .change-blocks a{
+    width: 120px;
+  }
+}
 @media only screen and (max-width : 814px){
   .info-block{
     padding-left: 25px;
   }
   .foto-trainer img{
     margin-left: -110px;
+  }
+  //trainer//
+  .course-kinds{
+    margin-left: -50px;
+    margin-right: -50px;
   }
 }
 @media only screen and (max-width : 812px){
@@ -1440,7 +1566,18 @@
         margin-left: -25px;
       }
     }
-
+  }
+  //trainer//
+  .course-kinds{
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .trainer-info__block .foto-trainer{
+    text-align: center;
+    img{
+      width: inherit;
+      position: relative;
+    }
   }
 }
 @media only screen and (max-width : 760px){
@@ -1453,6 +1590,51 @@
   }
   .practice_theory li:after{
     right: -90px;
+  }
+}
+@media only screen and (max-width : 728px){
+  //trainer//
+  .course-kinds{
+    a{
+      &:after{
+        height: 42px;
+        bottom: -44px;
+      }
+    }
+  }
+  .bottom-kinds{
+    margin-top: 0;
+    li{
+      float: none;
+      display: inline-block;
+
+    }
+    a{
+      &:after{
+        top: 20px;
+        width: 45px;
+        height: 3px;
+        right: -46px;
+        left: inherit;
+      }
+    }
+    li:nth-child(2n){
+      a:before{display: none}
+      a:after{
+        left: -46px;
+      }
+    }
+    li:last-child{
+      a{
+        &:after{
+          height: 46px;
+          width: 3px;
+          left: 50%;
+          right: inherit;
+          top: -47px;
+        }
+      }
+    }
   }
 }
 @media only screen and (max-width : 720px){
@@ -1642,7 +1824,31 @@
   .text-webinar h2{
     font-size:4vw;
   }
-
+  //trainer//
+  .title-internal h2{
+    font-size: 9.9vw;
+  }
+  .in-trainer .trainer-information{
+    left: 0;
+  }
+  .trainer-info__block .foto-trainer{
+    img{
+      width: 100%;
+    }
+  }
+  body .course-kinds{
+    a{
+      &:after{
+        height: 23px !important;
+        left: 50% !important;
+        right: inherit;
+        top: inherit;
+        bottom: -25px;
+        width: 3px !important;
+      }
+    }
+  }
+  .bottom-kinds li:last-child a:after{display: none}
 }
 @media only screen and (max-width : 495px){
   .button-search-container input{
@@ -1680,6 +1886,23 @@
   }
   .button-search-container input{
     min-width: 355px;
+  }
+}
+@media only screen and (max-width : 441px){
+  //trainer//
+  .trainer-info__right{
+    li{
+      text-align: center;
+      *{display: block}
+      span{
+        display: inline-block;
+        width: inherit;
+        text-align: center;
+      }
+    }
+    b{
+      padding: 0;
+    }
   }
 }
 @media only screen and (max-width : 436px){
