@@ -1806,6 +1806,108 @@ body .foot-email {
     font-size: 20.83px;
     line-height: 25px; }
 
+.in-trainer .foto-trainer img {
+  width: 100%;
+  margin-right: 0; }
+
+.in-trainer .trainer-information {
+  bottom: 0;
+  left: 0;
+  height: 98px;
+  padding-top: 17px;
+  padding-right: 14px; }
+  .in-trainer .trainer-information h2 {
+    letter-spacing: 1px; }
+  .in-trainer .trainer-information p {
+    letter-spacing: 1px; }
+
+.trainer-info__right ul {
+  padding-top: 88px; }
+
+.trainer-info__right li {
+  text-align: left;
+  border-bottom: 1px solid #dddddd; }
+  .trainer-info__right li * {
+    display: inline-block;
+    vertical-align: middle; }
+
+.trainer-info__right span {
+  width: 60px;
+  text-align: center;
+  margin-bottom: 9px;
+  padding-top: 12px; }
+
+.trainer-info__right b {
+  color: #333333;
+  font-size: 12.5px;
+  padding-left: 20px;
+  min-width: 160px;
+  text-transform: uppercase; }
+
+.trainer-video {
+  max-width: 720px;
+  margin: 0 auto;
+  min-height: 361px;
+  margin-top: 70px;
+  background-color: #333333; }
+
+.course-kinds a {
+  display: inline-block;
+  padding-top: 8px;
+  font-size: 10.42px;
+  border: 2px solid #6dc0df;
+  color: #fff;
+  background-color: #0b96cb;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  min-height: 50px;
+  width: 153px;
+  line-height: 11px;
+  text-align: center;
+  position: relative;
+  letter-spacing: -0.2px;
+  margin-bottom: 20px; }
+  .course-kinds a:after {
+    position: absolute;
+    bottom: -38px;
+    left: 50%;
+    content: '';
+    margin-left: 0px;
+    width: 3px;
+    height: 36px;
+    background-color: #afc2c8; }
+  .course-kinds a:hover {
+    text-decoration: none; }
+
+.course-kinds b {
+  font-size: 20.83px; }
+
+.bottom-kinds {
+  display: inline-block;
+  margin-top: 50px; }
+  .bottom-kinds li {
+    float: left;
+    margin: 0 50px; }
+    .bottom-kinds li:nth-child(2n) a:before {
+      position: absolute;
+      min-width: 508px;
+      width: 100%;
+      top: -36px;
+      left: -119%;
+      height: 3px;
+      content: '';
+      background-color: #afc2c8; }
+  .bottom-kinds a:after {
+    bottom: inherit;
+    top: -36px;
+    height: 34px; }
+
+.left-activi__box .change-blocks {
+  margin-top: 25px; }
+  .left-activi__box .change-blocks a {
+    width: 140px;
+    margin: 0 10px; }
+
 @media only screen and (max-width: 1230px) {
   .in-preview {
     margin: 0;

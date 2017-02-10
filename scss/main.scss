@@ -2005,6 +2005,132 @@ body .foot-email{
     }
 }
 
+//trainer///
+.in-trainer .foto-trainer{
+    img{
+        width: 100%;
+        margin-right: 0;
+    }
+}
+.in-trainer .trainer-information{
+    bottom: 0;
+    left: 0;
+    height: 98px;
+    padding-top: 17px;
+    padding-right: 14px;
+    h2{
+        letter-spacing: 1px;
+    }
+    p{
+        letter-spacing: 1px;
+    }
+}
+.trainer-info__right{
+    ul{
+        padding-top: 88px;
+    }
+    li{
+        text-align: left;
+        *{display: inline-block;vertical-align: middle}
+        border-bottom: 1px solid #dddddd;
+    }
+    span{
+        width: 60px;
+        text-align: center;
+        margin-bottom: 9px;
+        padding-top: 12px;
+    }
+    b{
+        color: #333333;
+        font-size: 12.5px;
+        padding-left: 20px;
+        min-width: 160px;
+        text-transform: uppercase;
+    }
+
+
+}
+.trainer-video{
+    max-width: 720px;
+    margin: 0 auto;
+    min-height: 361px;
+    margin-top: 70px;
+    background-color: #333333;
+}
+.course-kinds{
+    a{
+
+        display: inline-block;
+        padding-top: 8px;
+        font-size:10.42px;
+        border: 2px solid #6dc0df;
+        color: #fff;
+        background-color: #0b96cb;
+        border-radius: 5px;
+        min-height: 50px;
+        width: 153px;
+        line-height: 11px;
+        text-align: center;
+        position: relative;
+        letter-spacing: -0.2px;
+        margin-bottom: 20px;
+        &:after{
+            position: absolute;
+            bottom: -38px;
+            left: 50%;
+            content: '';
+            margin-left: 0px;
+            width: 3px;
+            height: 36px;
+            background-color: #afc2c8;
+        }
+        &:hover{
+            text-decoration: none;
+        }
+    }
+    b{
+        font-size:20.83px;
+    }
+
+}
+.bottom-kinds{
+    display: inline-block;
+    margin-top: 50px;
+    li{
+        float: left;
+        margin: 0 50px;
+        &:nth-child(2n){
+            a{
+                &:before{
+                    position: absolute;
+                    min-width: 508px;
+                    width: 100%;
+                    top: -36px;
+                    left: -119%;
+                    height: 3px;
+                    content: '';
+                    background-color: #afc2c8;
+
+                }
+            }
+        }
+    }
+    a{
+        &:after{
+            bottom: inherit;
+            top: -36px;
+            height: 34px;
+        }
+
+    }
+}
+.left-activi__box .change-blocks{
+    margin-top: 25px;
+    a{
+        width: 140px;
+        margin: 0 10px;
+    }
+}
 
 //ALWAYS END
 @import "media.scss";
